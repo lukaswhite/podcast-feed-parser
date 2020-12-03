@@ -173,6 +173,21 @@ class Parser
             $episode->setExplicit($explicit[0]['data']);
         }
 
+        $episodeNumber = $item->get_item_tags(self::NS_ITUNES, 'episode');
+        if ( $episodeNumber && count($episodeNumber)) {
+            $episode->setEpisodeNumber(intval($episodeNumber[0]['data']));
+        }
+
+        $season = $item->get_item_tags(self::NS_ITUNES, 'season');
+        if ( $season && count($season)) {
+            $episode->setSeason(intval($season[0]['data']));
+        }
+
+        $episodeType = $item->get_item_tags(self::NS_ITUNES, 'episodeType');
+        if ( $episodeType && count($episodeType)) {
+            $episode->setType($episodeType[0]['data']);
+        }
+
         $image = $item->get_item_tags(self::NS_ITUNES, 'image');
         if ( $image && count($image)) {
             $artwork = new Artwork();

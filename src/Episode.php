@@ -22,6 +22,21 @@ class Episode
     protected $guid;
 
     /**
+     * @var string
+     */
+    protected $type;
+
+    /**
+     * @var int
+     */
+    protected $episodeNumber;
+
+    /**
+     * @var int
+     */
+    protected $season;
+
+    /**
      * @var Media
      */
     protected $media;
@@ -46,6 +61,60 @@ class Episode
     public function setGuid($guid)
     {
         $this->guid = $guid;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param string $type
+     * @return Episode
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getEpisodeNumber()
+    {
+        return $this->episodeNumber;
+    }
+
+    /**
+     * @param int $episodeNumber
+     * @return Episode
+     */
+    public function setEpisodeNumber($episodeNumber)
+    {
+        $this->episodeNumber = $episodeNumber;
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getSeason()
+    {
+        return $this->season;
+    }
+
+    /**
+     * @param int $season
+     * @return Episode
+     */
+    public function setSeason($season)
+    {
+        $this->season = $season;
         return $this;
     }
 

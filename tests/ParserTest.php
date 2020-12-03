@@ -123,6 +123,20 @@ The Good News and part of the "big" announcement I teased is this show is going 
 
     }
 
+    public function test_can_get_episodes_with_episode_numbers_seasons_and_types()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/seasons.rss'));
+        $podcast = $parser->run();
+
+        /** @var \Lukaswhite\PodcastFeedParser\Episode $episode */
+        $episode = $podcast->getEpisodes()[0];
+        $this->assertEquals(5,$episode->getEpisodeNumber());
+        $this->assertEquals(2,$episode->getSeason());
+        $this->assertEquals('full',$episode->getType());
+
+    }
+
     public function test_does_not_break_if_podcast_metadata_missing()
     {
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();
@@ -184,20 +198,16 @@ The Good News and part of the "big" announcement I teased is this show is going 
         $this->assertEquals('Podcast Help Desk™',$podcast->getTitle());
     }
 
-    /**
-     * @expectedException \Lukaswhite\PodcastFeedParser\Exceptions\FileNotFoundException
-     */
     public function test_throws_exception_if_file_not_found()
     {
+        $this->expectException(\Lukaswhite\PodcastFeedParser\Exceptions\FileNotFoundException::class);
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();
         $parser->load('./tests/fixtures/i-do-not-exist.rss');
     }
 
-    /**
-     * @expectedException \Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException
-     */
     public function test_throws_exception_if_file_not_xml()
     {
+        $this->expectException(\Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException::class);
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();
         $parser->load('./tests/fixtures/not-xml.rss');
         $podcast = $parser->run();
