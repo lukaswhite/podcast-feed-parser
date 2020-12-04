@@ -151,6 +151,9 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
         return $this;
     }
 
+    /**
+     * @return array
+     */
     public function getSeasons(): array
     {
         $seasons = [];
