@@ -32,9 +32,9 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
     const SERIAL = 'serial';
 
     /**
-     * @var array
+     * @var Episodes
      */
-    protected $episodes = [];
+    protected $episodes;
 
     /**
      * @var string
@@ -57,9 +57,17 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
     protected $copyright;
 
     /**
-     * @return array
+     * Podcast constructor.
      */
-    public function getEpisodes()
+    public function __construct()
+    {
+        $this->episodes = new Episodes();
+    }
+
+    /**
+     * @return Episodes
+     */
+    public function getEpisodes(): Episodes
     {
         return $this->episodes;
     }
@@ -70,7 +78,7 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
      */
     public function addEpisode(Episode $episode)
     {
-        $this->episodes[] = $episode;
+        $this->episodes->add($episode);
         return $this;
     }
 

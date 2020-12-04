@@ -154,7 +154,7 @@ class ParserTest extends \PHPUnit\Framework\TestCase
         $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
         $podcast = $parser->run();
 
-        $this->assertTrue(is_array($podcast->getEpisodes()));
+        $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Episodes::class, $podcast->getEpisodes());
         $this->assertEquals(6,count($podcast->getEpisodes()));
 
         /** @var \Lukaswhite\PodcastFeedParser\Episode $episode */
@@ -251,7 +251,7 @@ The Good News and part of the "big" announcement I teased is this show is going 
         $parser->setContent(file_get_contents('./tests/fixtures/minimal.rss'));
         $podcast = $parser->run();
 
-        $this->assertTrue(is_array($podcast->getEpisodes()));
+        $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Episodes::class,$podcast->getEpisodes());
         $this->assertEquals(1,count($podcast->getEpisodes()));
 
         /** @var \Lukaswhite\PodcastFeedParser\Episode $episode */
@@ -273,6 +273,42 @@ The Good News and part of the "big" announcement I teased is this show is going 
         $this->assertNull($episode->getMedia());
 
         $this->assertNull($episode->getArtwork());
+    }
+
+    public function test_can_sort_by_most_recent()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->load('./tests/fixtures/feed.rss');
+        $podcast = $parser->run();
+        $podcast->getEpisodes()->newestFirst();
+        $this->assertEquals(
+            'https://www.podcasthelpdesk.com/?p=775',
+            $podcast->getEpisodes()->first()->getGuid()
+        );
+        $this->assertEquals(
+            'https://www.podcasthelpdesk.com/?p=749',
+            $podcast->getEpisodes()->last()->getGuid()
+        );
+        $this->assertEquals(
+            'https://www.podcasthelpdesk.com/?p=775',
+            $podcast->getEpisodes()->mostRecent()->getGuid()
+        );
+    }
+
+    public function test_can_sort_by_oldest()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->load('./tests/fixtures/feed.rss');
+        $podcast = $parser->run();
+        $podcast->getEpisodes()->oldestFirst();
+        $this->assertEquals(
+            'https://www.podcasthelpdesk.com/?p=749',
+            $podcast->getEpisodes()->first()->getGuid()
+        );
+        $this->assertEquals(
+            'https://www.podcasthelpdesk.com/?p=775',
+            $podcast->getEpisodes()->last()->getGuid()
+        );
     }
 
     public function test_can_load_from_file()
