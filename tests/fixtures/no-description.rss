@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>
+<channel>
+	<title>Podcast Help Desk™</title>
+	<atom:link href="https://www.podcasthelpdesk.com/feed/podcast/" rel="self" type="application/rss+xml" />
+	<link>https://www.podcasthelpdesk.com</link>
+	<lastBuildDate>Mon, 30 Nov 2020 21:57:33 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<sy:updateBase>2020-01-01T12:00+00:00</sy:updateBase>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<!-- podcast_generator="Blubrry PowerPress/8.4.3" mode="advanced" feedslug="podcast" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
+	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:new-feed-url>https://www.podcasthelpdesk.com/feed/podcast/</itunes:new-feed-url>
+	<itunes:summary>SMRY Podcasting tips, opinions, gear, technology and news from a Veteran podcaster of over 15 years.  Have a podcasting question?  Ask here at the Podcast Help Desk.</itunes:summary>
+	<itunes:author>Mike Dell</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Mike Dell</itunes:name>
+		<itunes:email>mike@mikedell.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>mike@mikedell.com (Mike Dell)</managingEditor>
+	<copyright>&#xA9; 2012-2020 Podcast Help Desk</copyright>
+	<itunes:subtitle>ST Podcasting tips, opinions, gear, technology and news</itunes:subtitle>
+	<itunes:category text="Technology" />
+	<itunes:category text="Business">
+		<itunes:category text="Marketing" />
+	</itunes:category>
+	<itunes:category text="News">
+		<itunes:category text="Tech News" />
+	</itunes:category>
+	<googleplay:category text="Technology"/>
+	<rawvoice:rating>TV-G</rawvoice:rating>
+	<rawvoice:location>Traverse City, Michigan</rawvoice:location>
+	<rawvoice:frequency>Twice Weekly</rawvoice:frequency>
+	<rawvoice:subscribe feed="https://www.podcasthelpdesk.com/feed/podcast/" html="https://www.podcasthelpdesk.com/subscribe-to-podcast/" itunes="https://itunes.apple.com/us/podcast/podcast-help-desk/id939440023?mt=2" blubrry="https://www.blubrry.com/phd/" stitcher="https://www.stitcher.com/show/podcasting-tech-coach" tunein="http://tunein.com/radio/Podcast-Help-Desk-p615263/"></rawvoice:subscribe>
+	<item>
+		<title>Podcast Help Desk going 2 times weekly starting December 16th &#8211; PHD151</title>
+		<link>https://www.podcasthelpdesk.com/podcast-help-desk-going-2-times-weekly-starting-december-16th-phd151/</link>
+		<pubDate>Mon, 30 Nov 2020 21:57:33 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=775</guid>
+		<description>I failed miserably at completing the NaPodPoMo 30 episodes in 30 days this year.  OH well,  Such is life getting in the way.
+The Good News and part of the &quot;big&quot; announcement I teased is this show is going 2 times weekly starting on Dec. 16, 2020.  </description>
+		<content:encoded><![CDATA[<p><img loading="lazy" class="alignleft size-thumbnail wp-image-700" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020-150x150.jpg" alt="" width="150" height="150" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020-150x150.jpg 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020-300x300.jpg 300w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020-1024x1024.jpg 1024w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020-768x768.jpg 768w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/10/phd1400_2020.jpg 1400w" sizes="(max-width: 150px) 100vw, 150px" /> I failed miserably at completing the NaPodPoMo 30 episodes in 30 days this year.  OH well,  Such is life getting in the way.</p>
+<p>The Good News and part of the &#8220;big&#8221; announcement I teased is this show is going 2 times weekly starting on Dec. 16, 2020.</p>
+<p>As the unofficial companion show to Podcast Insider &#8211; Blubry&#8217;s Official Podcast and Blog, I will be putting out short 10-15 minute (most of the time) episodes of Podcast Help Desk on Wednesday and Friday, Every single week!  It&#8217;s my &#8220;Get Mike to take podcasting more seriously&#8221; project.  I&#8217;ve always preached that being constant is one key way to grow a show.  The only show I&#8217;ve ever been able to do that on was Podcast Insider.  Now I want to add Podcast Help Desk to that success schedule-keeping.  Call it my &#8220;Podcast Improvement Plan&#8221;.</p>
+<p>Another thing I&#8217;ve been told (and believed) that 1 time a week is good, 2 times a week is better. I want to put that to the test.</p>
+<p>Also, recently, I&#8217;ve been hearing that people prefer shorter episodes.  We will be testing that theory as well.</p>
+<p>If you would like to have me cover a topic, have a general podcasting question or just want to make a comment, hit the &#8220;leave a voicemail&#8221; tab on <a href="https://www.PodcastHelpDesk.com">PodcastHelpDesk.com</a> or send me an email, podcasthelpdesk@gmail.com and I will put it in Queue.</p>
+<p>Be sure to subscribe to Podcast Insider as well at <a href="https://podcastinsider.com" target="_blank" rel="noopener noreferrer">PodcastInsider.com</a></p>
+<p>This podcast is posted on <a href="https://www.podcasthelpdesk.com/"><u>PodcastHelpDesk.com.</u></a>  Go there and subscribe!</p>
+<p>***Note:  I had a slight noise issue on this recording.  Rather than re-record it, here it is in all it&#8217;s glory!  🙂</p>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd151.mp3" length="6893874" type="audio/mpeg" />
+		<itunes:subtitle>I failed miserably at completing the NaPodPoMo 30 episodes in 30 days this year.  OH well,  Such is life getting in the way.  The Good News and part of the &quot;big&quot; announcement I teased is this show is going 2 times weekly starting on Dec. 16, 2020.  </itunes:subtitle>
+		<itunes:summary>I failed miserably at completing the NaPodPoMo 30 episodes in 30 days this year.  OH well,  Such is life getting in the way. &lt;br /&gt;
+The Good News and part of the &quot;big&quot; announcement I teased is this show is going 2 times weekly starting on Dec. 16, 2020.  </itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>151</itunes:episode>
+		<itunes:title>Podcast Help Desk going 2 times weekly starting December 16th</itunes:title>
+		<itunes:duration>7:10</itunes:duration>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>My 8 Favorite Podcasts &#8211; PHD150</title>
+		<link>https://www.podcasthelpdesk.com/my-8-favorite-podcasts-phd150/</link>
+		<pubDate>Sat, 21 Nov 2020 09:20:08 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=764</guid>
+		<description>I&#039;m not only a podcaster, but an avid podcast listener.  I have something like 30 shows that I subscribe to plus I listen to a lot of one-off shows that I don&#039;t subscribe to.   Here is my top 8 (as of late November 2020) Also, not in Rank order.</description>
+		<content:encoded><![CDATA[<p>I&#8217;m not only a podcaster, but an avid podcast listener.  I have something like 30 shows that I subscribe to plus I listen to a lot of one-off shows that I don&#8217;t subscribe to.   Here is my top 8 (as of late November 2020) Also, not in Rank order.   Just that these 8 are listened to nearly as soon as they come in.</p>
+<h3><img loading="lazy" class="alignleft wp-image-765 size-thumbnail" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/lehtoslaw-150x150.jpg" alt="" width="150" height="150" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/lehtoslaw-150x150.jpg 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/lehtoslaw.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />Lehto&#8217;s Law</h3>
+<p>Steve Lehto is a Lawyer in Michigan and an author. He specializes in Lemon Law cases.  He has been doing a YouTube channel for a 5 or 6 years and then takes the audio and puts it out as a podcast.  He does 2 Episodes a day, 7 days a week!   At the end of 2020 he will have posted 732 episodes in this year ALONE!   DANG!.</p>
+<p>They are short episodes.  Normally between 9 and 15 minutes each.  He covers most any law stories.  Sometimes car related stories. But I have to say, almost all of his episodes are funny, well produced and to the point.  I never miss an episode.</p>
+<p><a href="http://lehtoslaw.com/" target="_blank" rel="noopener noreferrer">Website</a> &#8211; <a href="https://podcastindex.org/podcast/752632" target="_blank" rel="noopener noreferrer">Podcast</a></p>
+<h3><img loading="lazy" class="alignleft wp-image-766 size-thumbnail" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/apg-150x150.png" alt="" width="150" height="150" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/apg-150x150.png 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/apg-300x300.png 300w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/apg.png 600w" sizes="(max-width: 150px) 100vw, 150px" />Airline Pilot Guy</h3>
+<p>Airline Pilot Guy is an aviation podcast hosted by Capt. Jeff, Dr. Steph, Capt. Nick,  and Miami Rick (Also a Capt.) along with sometimes co-host Capt. Dana.  Produced by Liz Pyper. It&#8217;s a weekly <strong><em>3 HOUR SHOW </em></strong>all about the Aviation Profession and Hobby. The hosts are current or former Airline Pilots (other than Dr. Steph who is commercial pilot rated but plays a Doctor in real life).</p>
+<p>It&#8217;s broken it segments for News, &#8220;Getting to Know You&#8221; where the crew tells what they have been up to the week before, The Coffee Fund (which is Jeff begging for money 🙂 ) and the ever popular &#8220;Plane Tales&#8221; by &#8220;The Old Pilot (who is really Capt. Nick) and of course FEEDBACK.  It&#8217;s the show with the most feedback than any I&#8217;ve ever heard of. Jeff and the crew answer about 2 hours of questions every week and the audience participation is the best.  You might even hear me on there once in a while 🙂 .</p>
+<p><a href="http://airlinepilotguy.com/" target="_blank" rel="noopener noreferrer">Website</a> &#8211; <a href="https://podcastindex.org/podcast/387814" target="_blank" rel="noopener noreferrer">Podcast</a></p>
+<h3><img loading="lazy" class="alignleft wp-image-767 size-thumbnail" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/arrl-150x150.jpg" alt="" width="150" height="150" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/arrl-150x150.jpg 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/arrl.jpg 250w" sizes="(max-width: 150px) 100vw, 150px" />ARRL Audio News</h3>
+<p>This is a weekly podcast from the American Radio Relay League (Amateur Radio or Ham Radio).  Gives the latest news around the world for Amateur Radio. Hosted by the league employees.</p>
+<p><a href="https://arrl.org" target="_blank" rel="noopener noreferrer">Website</a> &#8211; <a href="https://blubrry.com/arrlaudionews/" target="_blank" rel="noopener noreferrer">Podcast</a></p>
+<p>&nbsp;</p>
+<h3><img loading="lazy" class="alignleft wp-image-768 size-thumbnail" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-150x150.png" alt="" width="150" height="150" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-150x150.png 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-300x300.png 300w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-1024x1024.png 1024w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-768x768.png 768w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1-1536x1536.png 1536w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/podnews-2000x2000-1.png 2000w" sizes="(max-width: 150px) 100vw, 150px" />Podnews</h3>
+<p>This is a Daily (Monday-Friday) podcast of the Podnews.net newsletter by James Cridland.  Gives a daily round up of podcasting news and opinions from the editor (James).  Sometimes a bit snarky and James has a very cool aloof British Accent  🙂</p>
+<p>You should really sign up for the newsletter AND listen to the podcast.  Very informative about the podcast industry.</p>
+<p><a href="https://podnews.net" target="_blank" rel="noopener noreferrer">Webiste</a> &#8211; <a href="https://podcastindex.org/podcast/227573" target="_blank" rel="noopener noreferrer">Podcast </a></p>
+<h3><img loading="lazy" class="alignleft wp-image-769 size-thumbnail" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/1601061118.678_pciavatar-150x150.jpg" alt="" width="150" height="150" />Podcasting 2.0</h3>
+<p>Podcasting 2.0 is Adam Curry and Dave Jones, the guys behind the Podcast Index.  Adam, of course, is the Podfather and former MTV VJ (One of the guys that invented podcasting) and Dave is a &#8220;dude named Ben&#8221; (developer and I.T. Guy).  They call this podcast the &#8220;Board Meeting&#8221; for Podcast Index LLC.  This one is a bit geeky, and fun because it&#8217;s more Adam.</p>
+<p>They talk about what is going on in the Podcast Index and the new &#8220;Podcast&#8221; namespace for RSS.</p>
+<p><a href="https://podcastindex.org/podcast/920666" target="_blank" rel="noopener noreferrer">Website &#8211; Podcast</a></p>
+<p>A few more I don&#8217;t miss.</p>
+<p><strong>Dave Rubin&#8217;s &#8220;<a href="https://podcastindex.org/podcast/432515" target="_blank" rel="noopener noreferrer">The Rubin Report</a>&#8220;</strong><br />
+<strong>Adam Curry and John C. Dvorak&#8217;s &#8220;<a href="https://podcastindex.org/podcast/41504" target="_blank" rel="noopener noreferrer">No Agenda</a>&#8220;</strong><br />
+<strong>Todd Cochrane and Rob Greenlee&#8217;s &#8220;<a href="https://podcastindex.org/podcast/540927" target="_blank" rel="noopener noreferrer">New Media Show</a>&#8220;</strong></p>
+<p>AND of course there are my other shows.</p>
+<p><a href="https://podcastinsider.com" target="_blank" rel="noopener noreferrer">Podcast Insider</a> and <a href="https://mikedell.com" target="_blank" rel="noopener noreferrer">Mike Dell&#8217;s World</a></p>
+<p>There are quite a few more that I like.  But these 8 are my must listen (or watch) podcasts.</p>
+<p>This podcast is posted on <a href="https://www.podcasthelpdesk.com/"><u>PodcastHelpDesk.com.</u></a>  Go there and subscribe!</p>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd150.mp3" length="19078962" type="audio/mpeg" />
+		<itunes:subtitle>I&#039;m not only a podcaster, but an avid podcast listener.  I have something like 30 shows that I subscribe to plus I listen to a lot of one-off shows that I don&#039;t subscribe to.   Here is my top 8 (as of late November 2020) Also, not in Rank order.</itunes:subtitle>
+		<itunes:summary>I&#039;m not only a podcaster, but an avid podcast listener.  I have something like 30 shows that I subscribe to plus I listen to a lot of one-off shows that I don&#039;t subscribe to.   Here is my top 8 (as of late November 2020) Also, not in Rank order.</itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>150</itunes:episode>
+		<itunes:title>My 8 Favorite Podcasts</itunes:title>
+		<itunes:duration>19:52</itunes:duration>
+		</item>
+	<item>
+		<title>The beauty of Simple (Part 2) &#8211; PHD149</title>
+		<link>https://www.podcasthelpdesk.com/the-beauty-of-simple-part-2-phd149/</link>
+		<pubDate>Tue, 17 Nov 2020 22:00:01 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=759</guid>
+		<description>Keeping it simple makes it easy for you to produce your podcast and not worry about waisting a lot of time if you don&#039;t have a lot of time.  </description>
+		<content:encoded><![CDATA[<p>Keeping it simple makes it easy for you to produce your podcast and not worry about waisting a lot of time if you don&#8217;t have a lot of time.</p>
+<p>This podcast is posted on <a href="https://www.podcasthelpdesk.com/"><u>PodcastHelpDesk.com.</u></a>  Go there and subscribe!</p>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd149a.mp3" length="4919730" type="audio/mpeg" />
+		<itunes:subtitle>Keeping it simple makes it easy for you to produce your podcast and not worry about waisting a lot of time if you don&#039;t have a lot of time.  </itunes:subtitle>
+		<itunes:summary>Keeping it simple makes it easy for you to produce your podcast and not worry about waisting a lot of time if you don&#039;t have a lot of time.  </itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>149</itunes:episode>
+		<itunes:title>The beauty of Simple (Part 2)</itunes:title>
+		<itunes:duration>5:07</itunes:duration>
+		</item>
+	<item>
+		<title>Do not look at your stats for the first 3 months &#8211; PHD148</title>
+		<link>https://www.podcasthelpdesk.com/do-not-look-at-your-stats-for-the-first-3-months-phd148/</link>
+		<pubDate>Mon, 16 Nov 2020 09:20:38 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=757</guid>
+		<description>YES, I really did just say don&#039;t look at your stats for 3 months!  THIS MEANS YOU!</description>
+		<content:encoded><![CDATA[<p>YES, I really did just say don&#8217;t look at your stats for 3 months.  People can get so obsessed with their numbers that they forget to put their energy into the podcast episodes themselves.  Your show will grow if it&#8217;s good and you keep doing it. So focus on that. It WILL grow, but sometimes it&#8217;s much slower than we want it to be.</p>
+<p>This podcast is posted on <a href="https://www.podcasthelpdesk.com/"><u>PodcastHelpDesk.com.</u></a>  Go there and subscribe!</p>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd148.mp3" length="3639078" type="audio/mpeg" />
+		<itunes:subtitle>YES, I really did just say don&#039;t look at your stats for 3 months!  THIS MEANS YOU!</itunes:subtitle>
+		<itunes:summary>YES, I really did just say don&#039;t look at your stats for 3 months!  THIS MEANS YOU!</itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>148</itunes:episode>
+		<itunes:title>Do not look at your stats for the first 3 months</itunes:title>
+		<itunes:duration>3:47</itunes:duration>
+		</item>
+	<item>
+		<title>Who Is Your Show For? &#8211; PHD147</title>
+		<link>https://www.podcasthelpdesk.com/who-is-your-shoe-for-phd147/</link>
+		<pubDate>Sun, 15 Nov 2020 22:03:19 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=753</guid>
+		<description>So, who exactly is your show for?
+
+When you try to make a podcast for EVERYONE, you really are making a show for NOBODY.  </description>
+		<content:encoded><![CDATA[<p>So, who exactly is your show for?</p>
+<p>When you try to make a podcast for EVERYONE, you really are making a show for NOBODY.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd147.mp3" length="7720626" type="audio/mpeg" />
+		<itunes:subtitle>So, who exactly is your show for?    - When you try to make a podcast for EVERYONE, you really are making a show for NOBODY.  </itunes:subtitle>
+		<itunes:summary>So, who exactly is your show for?   &lt;br /&gt;
+&lt;br /&gt;
+When you try to make a podcast for EVERYONE, you really are making a show for NOBODY.  </itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>147</itunes:episode>
+		<itunes:title>Who Is Your Show For?</itunes:title>
+		<itunes:duration>8:02</itunes:duration>
+		</item>
+	<item>
+		<title>8 Things YOU Need To Know (or learn) About YOUR Podcast &#8211; PHD146</title>
+		<link>https://www.podcasthelpdesk.com/8-things-you-need-to-know-or-learn-about-your-podcast-phd146/</link>
+		<pubDate>Thu, 12 Nov 2020 18:48:38 +0000</pubDate>
+		<guid isPermaLink="false">https://www.podcasthelpdesk.com/?p=749</guid>
+		<description>There are many things about a podcast that a podcaster needs to know even if you don&#039;t do everything for your show.  A lot of indie podcasters do everything.  Prep, Talent, Recording, Editing, Producing, Publishing, Booking guests and ALL of it.  Some only do the parts of it.  Sometimes it&#039;s a whole team.  BUT, YOU as the owner of your show, need to know some things no matter if you do them or not. </description>
+		<content:encoded><![CDATA[<p><img loading="lazy" class="alignright size-medium wp-image-751" src="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/list-1-300x300.jpg" alt="" width="300" height="300" srcset="https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/list-1-300x300.jpg 300w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/list-1-150x150.jpg 150w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/list-1-768x768.jpg 768w, https://www.podcasthelpdesk.com/wp-content/uploads/2020/11/list-1.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" />There are many things about a podcast that a podcaster needs to know even if you don&#8217;t do everything for your show.  A lot of indie podcasters do everything.  Prep, Talent, Recording, Editing, Producing, Publishing, Booking guests and ALL of it.  Some only do the parts of it.  Sometimes it&#8217;s a whole team.  BUT, YOU as the owner of your show, need to know some things no matter if you do them or not.</p>
+<p>Here is my checklist of things I suggest you Know or Learn about your show so that you are able to take care of what needs to be taken care of if something goes wrong.</p>
+<ol>
+<li>RSS feed address. The WHOLE address.</li>
+<li>The Title of your show as it appears in the directories.  This may seem silly, but sometimes people call a show by a shortened name or a &#8216;nickname&#8217; of sorts. It&#8217;s always good to KNOW the title.</li>
+<li>The email address for the feed.</li>
+<li>Apple Podcasts listing URL (mainly the ID# at the end)</li>
+<li>Where is the website hosted.  (and address)</li>
+<li>Where is the Podcast Media hosted.</li>
+<li>Logins to Website, Media Host, Web Host, Apple Podcasts and any other logins to manage listings on directories and apps,</li>
+<li>Media Encoding (This is a little geeky but it will help if you need to hire an editor)</li>
+</ol>
+]]></content:encoded>
+		<enclosure url="https://media.blubrry.com/phd/ins.blubrry.com/phd/phd146.mp3" length="10521522" type="audio/mpeg" />
+		<itunes:subtitle>There are many things about a podcast that a podcaster needs to know even if you don&#039;t do everything for your show.  A lot of indie podcasters do everything.  Prep, Talent, Recording, Editing, Producing, Publishing, Booking guests and ALL of it.</itunes:subtitle>
+		<itunes:summary>There are many things about a podcast that a podcaster needs to know even if you don&#039;t do everything for your show.  A lot of indie podcasters do everything.  Prep, Talent, Recording, Editing, Producing, Publishing, Booking guests and ALL of it.  Some only do the parts of it.  Sometimes it&#039;s a whole team.  BUT, YOU as the owner of your show, need to know some things no matter if you do them or not. </itunes:summary>
+		<itunes:author>Mike Dell</itunes:author>
+		<itunes:image href="https://www.podcasthelpdesk.com/wp-content/uploads/powerpress/phd1400_2020.jpg" />
+		<itunes:episode>146</itunes:episode>
+		<itunes:title>8 Things YOU Need To Know (or learn) About YOUR Podcast</itunes:title>
+		<itunes:duration>10:57</itunes:duration>
+		</item>
+</channel>
+</rss>

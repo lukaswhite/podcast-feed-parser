@@ -313,6 +313,50 @@ The Good News and part of the "big" announcement I teased is this show is going 
         );
     }
 
+    public function test_can_override_description_behavior()
+    {
+        $config = new \Lukaswhite\PodcastFeedParser\Config();
+        $config->descriptionOnly();
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser($config);
+        $parser->load('./tests/fixtures/no-description.rss');
+        $podcast = $parser->run();
+        $this->assertNull($podcast->getDescription());
+    }
+
+    public function test_overriding_description_behavior_doesnt_affect_description()
+    {
+        $config = new \Lukaswhite\PodcastFeedParser\Config();
+        $config->descriptionOnly();
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser($config);
+        $parser->load('./tests/fixtures/feed.rss');
+        $podcast = $parser->run();
+        $this->assertEquals(
+            'Podcasting tips, opinions, gear, technology and news from a Veteran podcaster of over 15 years.  Have a podcasting question?  Ask here at the Podcast Help Desk.',
+            $podcast->getDescription()
+        );
+    }
+
+    public function test_can_override_pub_date_behavior()
+    {
+        $config = new \Lukaswhite\PodcastFeedParser\Config();
+        $config->dontDefaultToToday();
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser($config);
+        $parser->load('./tests/fixtures/episode-with-no-pub-date.rss');
+        $podcast = $parser->run();
+        $this->assertNull($podcast->getEpisodes()->first()->getPublishedDate());
+    }
+
+    public function test_overriding_pub_date_behavior_does_not_affect_pub_date()
+    {
+        $config = new \Lukaswhite\PodcastFeedParser\Config();
+        $config->dontDefaultToToday();
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser($config);
+        $parser->load('./tests/fixtures/feed.rss');
+        $podcast = $parser->run();
+        $this->assertInstanceOf(\DateTime::class,$podcast->getEpisodes()->first()->getPublishedDate());
+        $this->assertEquals('2020-11-30 21:57',$podcast->getEpisodes()->first()->getPublishedDate()->format('Y-m-d H:i'));
+    }
+
     public function test_can_load_from_file()
     {
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();

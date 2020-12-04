@@ -5,6 +5,7 @@ namespace Lukaswhite\PodcastFeedParser;
 use Lukaswhite\PodcastFeedParser\Exceptions\FileNotFoundException;
 use Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException;
 use Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe;
+use phpDocumentor\Reflection\Types\String_;
 
 /**
  * Class Parser
@@ -35,6 +36,21 @@ class Parser
      * @var \SimplePie
      */
     protected $sp;
+
+    /**
+     * @var Config
+     */
+    protected $config;
+
+    /**
+     * Parser constructor.
+     *
+     * @param Config|null $config
+     */
+    public function __construct(Config $config = null)
+    {
+        $this->config = $config ?? new Config();
+    }
 
     /**
      * @param string $content
@@ -82,10 +98,18 @@ class Parser
 
         $podcast = new Podcast();
         $podcast->setTitle($this->sp->get_title())
-            ->setDescription($this->sp->get_description())
             ->setLanguage($this->sp->get_language())
             ->setCopyright($this->sp->get_copyright())
             ->setLink($this->sp->get_link());
+
+        if ( ! $this->config->checkDescriptionOnly( ) ) {
+            $podcast->setDescription($this->sp->get_description());
+        } else {
+            $description = $this->sp->get_channel_tags('', 'description');
+            if ($description && count($description)) {
+                $podcast->setDescription($this->sp->sanitize($description[0]['data'], SIMPLEPIE_CONSTRUCT_MAYBE_HTML));
+            }
+        }
 
         $this->parseRssTags($podcast);
         $this->parseAtomTags($podcast);
@@ -98,29 +122,35 @@ class Parser
 
         $iTunesType = $this->sp->get_channel_tags(self::NS_ITUNES, 'type');
         if ($iTunesType && count($iTunesType)) {
-            $podcast->setType($iTunesType[0]['data']);
+            $podcast->setType($this->sanitize($iTunesType[0]['data']));
         }
 
         $editor = $this->sp->get_channel_tags('', 'managingEditor');
         if ($editor && count($editor)) {
-            $podcast->setManagingEditor($editor[0]['data']);
+            $podcast->setManagingEditor($this->sanitize($editor[0]['data']));
         }
 
         if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'subtitle')) {
             $podcast->setSubtitle(
-                $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'subtitle')['data']
+                $this->sanitize(
+                    $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'subtitle')['data']
+                )
             );
         }
 
         if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'explicit')) {
             $podcast->setExplicit(
-                $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'explicit')['data']
+                $this->sanitize(
+                    $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'explicit')['data']
+                )
             );
         }
 
         if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'new-feed-url')) {
             $podcast->setNewFeedUrl(
-                $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'new-feed-url')['data']
+                $this->sanitize(
+                    $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'new-feed-url')['data']
+                )
             );
         }
 
@@ -128,7 +158,9 @@ class Parser
         if ( $image ) {
             $artwork = new Artwork();
             $artwork->setUri(
-                $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'image')['attribs']['']['href']
+                $this->sanitize(
+                    $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'image')['attribs']['']['href']
+                )
             );
             $podcast->setArtwork($artwork);
         }
@@ -139,12 +171,17 @@ class Parser
             if (isset($ownerData['child'])&&
                 isset($ownerData['child'][self::NS_ITUNES])&&
                 isset($ownerData['child'][self::NS_ITUNES]['name'])) {
-                $owner->setName($ownerData['child'][self::NS_ITUNES]['name'][0]['data']);
+                $owner->setName(
+                    $this->sanitize($ownerData['child'][self::NS_ITUNES]['name'][0]['data'])
+                );
             }
             if (isset($ownerData['child'])&&
                 isset($ownerData['child'][self::NS_ITUNES])&&
                 isset($ownerData['child'][self::NS_ITUNES]['email'])) {
-                $owner->setEmail($ownerData['child'][self::NS_ITUNES]['email'][0]['data']);
+                $owner->setEmail(
+                    $this->sanitize(
+                        $ownerData['child'][self::NS_ITUNES]['email'][0]['data']
+                    ));
             }
             $podcast->setOwner($owner);
         }
@@ -154,13 +191,17 @@ class Parser
             foreach($itunesCategories as $categoryData) {
                 $category = new Category();
                 $category->setType(Category::ITUNES)
-                    ->setName($categoryData['attribs']['']['text']);
+                    ->setName(
+                        $this->sanitize($categoryData['attribs']['']['text'])
+                    );
                 if(isset($categoryData['child'])&&is_array($categoryData['child'])) {
                     foreach($categoryData['child'][self::NS_ITUNES]['category'] as $subCategoryData) {
                         $category->addSubCategory(
                             ( new Category() )
                                 ->setType(Category::ITUNES)
-                                ->setName($subCategoryData['attribs']['']['text'])
+                                ->setName(
+                                    $this->sanitize($subCategoryData['attribs']['']['text'])
+                                )
                         );
                     }
                 }
@@ -173,7 +214,7 @@ class Parser
             foreach($googlePlayCategories as $categoryData) {
                 $category = new Category();
                 $category->setType(Category::GOOGLE_PLAY)
-                    ->setName($categoryData['attribs']['']['text']);
+                    ->setName($this->sanitize($categoryData['attribs']['']['text']));
                 $podcast->addCategory($category);
             }
         }
@@ -194,7 +235,7 @@ class Parser
     {
         $generator = $this->sp->get_channel_tags('', 'generator');
         if ($generator && count($generator)) {
-            $podcast->setGenerator($generator[0]['data']);
+            $podcast->setGenerator($this->sanitize($generator[0]['data']));
         }
 
         $lastBuildDate = $this->sp->get_channel_tags('', 'lastBuildDate');
@@ -211,7 +252,7 @@ class Parser
         $atomLinks = $this->sp->get_channel_tags(self::NS_ATOM, 'link');
         if($atomLinks && count($atomLinks)) {
             foreach ($atomLinks as $atomLink) {
-                $link = new Link($atomLink['attribs']['']['href']);
+                $link = new Link($this->sanitize($atomLink['attribs']['']['href']));
                 if (isset($atomLink['attribs']['']['rel'])) {
                     $link->setRel($atomLink['attribs']['']['rel']);
                 }
@@ -231,11 +272,11 @@ class Parser
     {
         $updatePeriod = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updatePeriod');
         if($updatePeriod&&count($updatePeriod)) {
-            $podcast->setUpdatePeriod($updatePeriod[0]['data']);
+            $podcast->setUpdatePeriod($this->sanitize($updatePeriod[0]['data']));
         }
         $updateFrequency = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updateFrequency');
         if($updateFrequency&&count($updateFrequency)) {
-            $podcast->setUpdateFrequency(intval($updateFrequency[0]['data']));
+            $podcast->setUpdateFrequency(intval($this->sanitize($updateFrequency[0]['data'])));
         }
         $updateBase = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updateBase');
         if($updateBase&&count($updateBase)) {
@@ -251,21 +292,24 @@ class Parser
     {
         $rating = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'rating');
         if($rating&&count($rating)) {
-            $podcast->setRawvoiceRating($rating[0]['data']);
+            $podcast->setRawvoiceRating($this->sanitize($rating[0]['data']));
         }
         $location = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'location');
         if($location&&count($location)) {
-            $podcast->setRawvoiceLocation($location[0]['data']);
+            $podcast->setRawvoiceLocation($this->sanitize($location[0]['data']));
         }
         $frequency = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'frequency');
         if($frequency&&count($frequency)) {
-            $podcast->setRawvoiceFrequency($frequency[0]['data']);
+            $podcast->setRawvoiceFrequency($this->sanitize($frequency[0]['data']));
         }
         $subscribe = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'subscribe');
         if($subscribe&&count($subscribe)) {
             $links = new Subscribe();
             foreach($subscribe[0]['attribs'][''] as $platform => $link) {
-                $links->addLink($platform,$link);
+                $links->addLink(
+                    $platform,
+                    $this->sanitize($link)
+                );
             }
             $podcast->setRawvoiceSubscribe($links);
         }
@@ -281,22 +325,30 @@ class Parser
         $episode = new Episode();
         $episode->setTitle($item->get_title())
             ->setDescription($item->get_description())
-            ->setLink($item->get_link())
-            ->setPublishedDate(new \DateTime($item->get_date()));
+            ->setLink($item->get_link());
+
+        if ($this->config->shouldDefaultToToday()) {
+            $episode->setPublishedDate(new \DateTime($item->get_date()));
+        } else {
+            $pubDate = $item->get_item_tags('', 'pubDate');
+            if ($pubDate && count($pubDate)) {
+                $episode->setPublishedDate((new \DateTime())->setTimestamp(strtotime($pubDate[0]['data'])));
+            }
+        }
 
         $guid = $item->get_item_tags('', 'guid');
         if ($guid && count($guid)) {
-            $episode->setGuid($guid[0]['data']);
+            $episode->setGuid($this->sanitize($guid[0]['data']));
         }
 
         $subtitle = $item->get_item_tags(self::NS_ITUNES, 'subtitle');
         if ($subtitle && count($subtitle)) {
-            $episode->setSubtitle($subtitle[0]['data']);
+            $episode->setSubtitle($this->sanitize($subtitle[0]['data']));
         }
 
         $explicit = $item->get_item_tags(self::NS_ITUNES, 'explicit');
         if ( $explicit && count($explicit)) {
-            $episode->setExplicit($explicit[0]['data']);
+            $episode->setExplicit($this->sanitize($explicit[0]['data']));
         }
 
         $episodeNumber = $item->get_item_tags(self::NS_ITUNES, 'episode');
@@ -311,19 +363,19 @@ class Parser
 
         $episodeType = $item->get_item_tags(self::NS_ITUNES, 'episodeType');
         if ( $episodeType && count($episodeType)) {
-            $episode->setType($episodeType[0]['data']);
+            $episode->setType($this->sanitize($episodeType[0]['data']));
         }
 
         $duration = $item->get_item_tags(self::NS_ITUNES, 'duration');
         if ( $duration && count($duration)) {
-            $episode->setDuration($duration[0]['data']);
+            $episode->setDuration($this->sanitize($duration[0]['data']));
         }
 
         $image = $item->get_item_tags(self::NS_ITUNES, 'image');
         if ( $image && count($image)) {
             $artwork = new Artwork();
             $artwork->setUri(
-                $image[0]['attribs']['']['href']
+                $this->sanitize($image[0]['attribs']['']['href'])
             );
             $episode->setArtwork($artwork);
         }
@@ -367,6 +419,11 @@ class Parser
         if ( $items && count( $items ) ) {
             return $items[0];
         }
+    }
+
+    protected function sanitize(string $text): string
+    {
+        return $this->sp->sanitize($text, SIMPLEPIE_CONSTRUCT_TEXT);
     }
 
 
