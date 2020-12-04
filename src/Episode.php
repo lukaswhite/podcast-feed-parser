@@ -37,6 +37,11 @@ class Episode
     protected $season;
 
     /**
+     * @var string
+     */
+    protected $duration;
+
+    /**
      * @var Media
      */
     protected $media;
@@ -115,6 +120,24 @@ class Episode
     public function setSeason($season)
     {
         $this->season = $season;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDuration()
+    {
+        return $this->duration;
+    }
+
+    /**
+     * @param string $duration
+     * @return Episode
+     */
+    public function setDuration($duration)
+    {
+        $this->duration = $duration;
         return $this;
     }
 

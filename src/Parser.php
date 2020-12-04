@@ -314,6 +314,11 @@ class Parser
             $episode->setType($episodeType[0]['data']);
         }
 
+        $duration = $item->get_item_tags(self::NS_ITUNES, 'duration');
+        if ( $duration && count($duration)) {
+            $episode->setDuration($duration[0]['data']);
+        }
+
         $image = $item->get_item_tags(self::NS_ITUNES, 'image');
         if ( $image && count($image)) {
             $artwork = new Artwork();

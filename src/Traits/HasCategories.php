@@ -14,7 +14,7 @@ trait HasCategories
     /**
      * @var array
      */
-    protected $categories;
+    protected $categories = [];
 
     /**
      * @param string $type
