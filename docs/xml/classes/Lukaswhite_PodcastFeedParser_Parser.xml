@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Parser" namespace="Lukaswhite\PodcastFeedParser" name="Parser" abstract="false" final="false" start="16" end="368">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src" file="Parser.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Parser.php" size="12700" time="2020-12-04T01:41:26+00:00" unixtime="1607046086" sha1="a8f61d52a3be73d122f2a24015d90a7daad41b3a" relative="Parser.php"/>
+  <docblock>
+    <description compact="Class Parser">Parse a podcast feed.</description>
+    <package value="Lukaswhite\PodcastFeedParser"/>
+  </docblock>
+  <constant type="string" name="NS_ITUNES" value="'http://www.itunes.com/dtds/podcast-1.0.dtd'">
+    <docblock>
+      <description compact="Class constants for the various namespaces"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="NS_GOOGLE_PLAY" value="'http://www.google.com/schemas/play-podcasts/1.0'"/>
+  <constant type="string" name="NS_ATOM" value="'http://www.w3.org/2005/Atom'"/>
+  <constant type="string" name="NS_SYNDICATION" value="'http://purl.org/rss/1.0/modules/syndication/'"/>
+  <constant type="string" name="NS_RAWVOICE" value="'http://www.rawvoice.com/rawvoiceRssModule/'"/>
+  <member name="content" visibility="protected" static="false" line="32">
+    <docblock>
+      <description compact="The raw feed content"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="sp" visibility="protected" static="false" line="37">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="\SimplePie" namespace="" name="SimplePie"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="setContent" start="44" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$content"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\$this" namespace="Lukaswhite\PodcastFeedParser" name="$this"/>
+      </return>
+      <throws type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException" namespace="Lukaswhite\PodcastFeedParser\Exceptions" name="InvalidXmlException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Parser" namespace="Lukaswhite\PodcastFeedParser" name="Parser"/>
+    </return>
+    <parameter name="content" byreference="false" type="string"/>
+  </method>
+  <method name="load" start="62" end="69" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$filepath"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Parser" namespace="Lukaswhite\PodcastFeedParser" name="Parser"/>
+      </return>
+      <throws type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Exceptions\FileNotFoundException" namespace="Lukaswhite\PodcastFeedParser\Exceptions" name="FileNotFoundException"/>
+      </throws>
+      <throws type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException" namespace="Lukaswhite\PodcastFeedParser\Exceptions" name="InvalidXmlException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Parser" namespace="Lukaswhite\PodcastFeedParser" name="Parser"/>
+    </return>
+    <parameter name="filepath" byreference="false" type="string"/>
+  </method>
+  <method name="run" start="77" end="187" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Run the parser and return an object that represents the parsed podcast."/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </return>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    </return>
+    <inline>
+      <comment value="Now add the episodes" line="181"/>
+    </inline>
+  </method>
+  <method name="parseRssTags" start="193" end="204" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$podcast">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </param>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="podcast" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    </parameter>
+  </method>
+  <method name="parseAtomTags" start="209" end="224" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$podcast">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </param>
+    </docblock>
+    <parameter name="podcast" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    </parameter>
+  </method>
+  <method name="parseSyndicationFields" start="230" end="244" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$podcast">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </param>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="podcast" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    </parameter>
+  </method>
+  <method name="parseRawvoiceFields" start="250" end="272" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$podcast">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </param>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="podcast" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    </parameter>
+  </method>
+  <method name="parseEpisodeItem" start="279" end="337" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$item">
+        <type full="\SimplePie_Item" namespace="" name="SimplePie_Item"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+      </return>
+      <throws type="object">
+        <type full="\Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="item" byreference="false" type="object">
+      <type full="SimplePie_Item" namespace="" name="SimplePie_Item"/>
+    </parameter>
+  </method>
+  <method name="getFile" start="343" end="351" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param type="object" variable="$item">
+        <type full="\SimplePie_Item" namespace="" name="SimplePie_Item"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Media" namespace="Lukaswhite\PodcastFeedParser" name="Media"/>
+      </return>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Media" namespace="Lukaswhite\PodcastFeedParser" name="Media"/>
+    </return>
+    <parameter name="item" byreference="false" type="object">
+      <type full="SimplePie_Item" namespace="" name="SimplePie_Item"/>
+    </parameter>
+  </method>
+  <method name="getSingleNamespacedChannelItem" start="359" end="365" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <param variable="$namespace"/>
+      <param variable="$name"/>
+      <param type="null" variable="$item"/>
+      <return type="mixed"/>
+    </docblock>
+    <parameter name="namespace" byreference="false" type="{unknown}"/>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="item" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+</class>

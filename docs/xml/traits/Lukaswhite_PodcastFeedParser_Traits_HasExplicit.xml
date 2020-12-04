@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasExplicit" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasExplicit" abstract="false" final="false" start="6" end="31">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasExplicit.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasExplicit.php" size="444" time="2020-12-03T03:21:20+00:00" unixtime="1606965680" sha1="151b7eaadd41551d4106ef9c63ec0262af3b28d6" relative="Traits/HasExplicit.php"/>
+  <member name="explicit" visibility="protected" static="false" line="11">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getExplicit" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setExplicit" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$explicit"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasExplicit" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasExplicit"/>
+      </return>
+    </docblock>
+    <parameter name="explicit" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    <class full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+  </users>
+</trait>

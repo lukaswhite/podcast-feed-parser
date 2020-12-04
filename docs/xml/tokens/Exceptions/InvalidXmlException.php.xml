@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/home/vagrant/Code/projects/podcast-feed-parser/src/Exceptions" file="InvalidXmlException.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Exceptions/InvalidXmlException.php" size="110" time="2020-12-03T04:23:35+00:00" unixtime="1606969415" sha1="8348e020e78168c39396f497dcde04231e536bd1" relative="Exceptions/InvalidXmlException.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3"/>
+  <line no="4">
+    <token name="T_NAMESPACE">namespace</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Lukaswhite</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">PodcastFeedParser</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Exceptions</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="5"/>
+  <line no="6"/>
+  <line no="7">
+    <token name="T_CLASS">class</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">InvalidXmlException</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_EXTENDS">extends</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Exception</token>
+  </line>
+  <line no="8">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="9"/>
+  <line no="10">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+</source>

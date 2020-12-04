@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe" abstract="false" final="false" start="11" end="54">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Rawvoice" file="Subscribe.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Rawvoice/Subscribe.php" size="992" time="2020-12-04T01:48:29+00:00" unixtime="1607046509" sha1="08c24407e0d200dae1f03609b65bbdb1ae7f6f6d" relative="Rawvoice/Subscribe.php"/>
+  <docblock>
+    <description compact="Class Subscribe"/>
+    <package value="Lukaswhite\PodcastFeedParser\Rawvoice"/>
+  </docblock>
+  <constant type="string" name="FEED" value="'feed'"/>
+  <constant type="string" name="ITUNES" value="'itunes'"/>
+  <constant type="string" name="GOOGLEPLAY" value="'googleplay'"/>
+  <constant type="string" name="BLUBRRY" value="'blubrry'"/>
+  <constant type="string" name="HTML" value="'html'"/>
+  <constant type="string" name="STITCHER" value="'stitcher'"/>
+  <constant type="string" name="TUNEIN" value="'tunein'"/>
+  <member name="links" default="" type="array" visibility="protected" static="false" line="24">
+    <docblock>
+      <description/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <method name="getLinks" start="29" end="32" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array"/>
+    </docblock>
+  </method>
+  <method name="getLink" start="38" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$platform"/>
+      <return type="string"/>
+    </docblock>
+    <return type="string" nullable="true"/>
+    <parameter name="platform" byreference="false" type="string"/>
+  </method>
+  <method name="addLink" start="48" end="52" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$platform"/>
+      <param type="string" variable="$link"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+      </return>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+    </return>
+    <parameter name="platform" byreference="false" type="string"/>
+    <parameter name="link" byreference="false" type="string"/>
+  </method>
+</class>

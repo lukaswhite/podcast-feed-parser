@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags" abstract="false" final="false" start="8" end="94">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasItunesTags.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasItunesTags.php" size="1449" time="2020-12-04T00:50:45+00:00" unixtime="1607043045" sha1="3ff14d500486fa7ef2c3f9248c9d4b4926a86866" relative="Traits/HasItunesTags.php"/>
+  <member name="type" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="newFeedUrl" visibility="protected" static="false" line="18">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="owner" visibility="protected" static="false" line="23">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="getType" start="28" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="isEpisodic" start="36" end="39" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\bool" namespace="Lukaswhite\PodcastFeedParser\Traits" name="bool"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="isSerial" start="44" end="47" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\bool" namespace="Lukaswhite\PodcastFeedParser\Traits" name="bool"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setType" start="53" end="57" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$type"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+      </return>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getNewFeedUrl" start="62" end="65" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setNewFeedUrl" start="71" end="75" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$newFeedUrl"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+      </return>
+    </docblock>
+    <parameter name="newFeedUrl" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getOwner" start="80" end="83" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setOwner" start="89" end="93" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$owner">
+        <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+      </param>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+      </return>
+    </docblock>
+    <parameter name="owner" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </users>
+</trait>

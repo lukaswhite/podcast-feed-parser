@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags" abstract="false" final="false" start="8" end="101">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasRawvoiceTags.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasRawvoiceTags.php" size="1883" time="2020-12-04T01:26:24+00:00" unixtime="1607045184" sha1="110d39eee7888599c5654e554ca90d61feaad096" relative="Traits/HasRawvoiceTags.php"/>
+  <member name="rawvoiceRating" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="rawvoiceLocation" visibility="protected" static="false" line="18">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="rawvoiceFrequency" visibility="protected" static="false" line="23">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="rawvoiceSubscribe" visibility="protected" static="false" line="28">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="getRawvoiceRating" start="33" end="36" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setRawvoiceRating" start="42" end="46" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$rawvoiceRating"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+      </return>
+    </docblock>
+    <parameter name="rawvoiceRating" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getRawvoiceLocation" start="51" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setRawvoiceLocation" start="60" end="64" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$rawvoiceLocation"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+      </return>
+    </docblock>
+    <parameter name="rawvoiceLocation" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getRawvoiceFrequency" start="69" end="72" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setRawvoiceFrequency" start="78" end="82" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$rawvoiceFrequency"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+      </return>
+    </docblock>
+    <parameter name="rawvoiceFrequency" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getRawvoiceSubscribe" start="87" end="90" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setRawvoiceSubscribe" start="96" end="100" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$rawvoiceSubscribe">
+        <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+      </return>
+    </docblock>
+    <parameter name="rawvoiceSubscribe" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </users>
+</trait>

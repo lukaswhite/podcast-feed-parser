@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles" abstract="false" final="false" start="6" end="53">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasTitles.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasTitles.php" size="770" time="2020-12-03T02:41:46+00:00" unixtime="1606963306" sha1="df6a5ebb9d57604d2474e19c16150ba0a652e588" relative="Traits/HasTitles.php"/>
+  <member name="title" visibility="protected" static="false" line="11">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="subtitle" visibility="protected" static="false" line="16">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getTitle" start="21" end="24" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setTitle" start="30" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$title"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles"/>
+      </return>
+    </docblock>
+    <parameter name="title" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getSubtitle" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setSubtitle" start="48" end="52" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$subtitle"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles"/>
+      </return>
+    </docblock>
+    <parameter name="subtitle" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    <class full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+  </users>
+</trait>

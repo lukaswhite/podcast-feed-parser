@@ -27,3 +27,5 @@ $parser = Parser();
 $parser->load($filepath);
 $podcast = $parser->run();
 ```
+
+The `run()` method returns an instance of the `Podcast` class. 

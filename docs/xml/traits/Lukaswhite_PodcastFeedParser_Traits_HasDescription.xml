@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasDescription" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasDescription" abstract="false" final="false" start="6" end="30">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasDescription.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasDescription.php" size="463" time="2020-12-03T02:42:34+00:00" unixtime="1606963354" sha1="f7c8fe5b2ee897351d954db462fa03c779b20428" relative="Traits/HasDescription.php"/>
+  <member name="description" visibility="protected" static="false" line="11">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getDescription" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setDescription" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$description"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasDescription" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasDescription"/>
+      </return>
+    </docblock>
+    <parameter name="description" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    <class full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+  </users>
+</trait>

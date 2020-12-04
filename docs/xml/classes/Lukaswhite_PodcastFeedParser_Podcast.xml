@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast" abstract="false" final="false" start="17" end="149">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src" file="Podcast.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Podcast.php" size="2921" time="2020-12-04T01:27:26+00:00" unixtime="1607045246" sha1="fba6049d5b6650c68dbb2c03e9226bb315ca79f8" relative="Podcast.php"/>
+  <implements full="Lukaswhite\PodcastFeedParser\Contracts\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Contracts" name="HasArtwork"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasDescription" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasDescription" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasAtomTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasAtomTags" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasSyndicationTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasSyndicationTags" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasArtwork" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasExplicit" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasExplicit" start="19" end="29"/>
+  <uses full="Lukaswhite\PodcastFeedParser\Traits\HasCategories" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasCategories" start="19" end="29"/>
+  <constant type="string" name="EPISODIC" value="'episodic'"/>
+  <constant type="string" name="SERIAL" value="'serial'"/>
+  <member name="episodes" default="" type="array" visibility="protected" static="false" line="37">
+    <docblock>
+      <description/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <member name="language" visibility="protected" static="false" line="42">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="author" visibility="protected" static="false" line="47">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="managingEditor" visibility="protected" static="false" line="52">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="copyright" visibility="protected" static="false" line="57">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getEpisodes" start="62" end="65" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array"/>
+    </docblock>
+  </method>
+  <method name="addEpisode" start="71" end="75" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$episode">
+        <type full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\$this" namespace="Lukaswhite\PodcastFeedParser" name="$this"/>
+      </return>
+    </docblock>
+    <parameter name="episode" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+    </parameter>
+  </method>
+  <method name="getLanguage" start="80" end="83" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setLanguage" start="89" end="93" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$language"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </return>
+    </docblock>
+    <parameter name="language" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getAuthor" start="98" end="101" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setAuthor" start="107" end="111" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$author"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </return>
+    </docblock>
+    <parameter name="author" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getManagingEditor" start="116" end="119" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setManagingEditor" start="125" end="129" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$managingEditor"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </return>
+    </docblock>
+    <parameter name="managingEditor" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getCopyright" start="134" end="137" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setCopyright" start="143" end="147" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$copyright"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+      </return>
+    </docblock>
+    <parameter name="copyright" byreference="false" type="{unknown}"/>
+  </method>
+  <interface full="Lukaswhite\PodcastFeedParser\Contracts\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Contracts" name="HasArtwork"/>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles">
+    <member name="title" visibility="protected" static="false" line="11">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="subtitle" visibility="protected" static="false" line="16">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <method name="getTitle" start="21" end="24" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setTitle" start="30" end="34" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$title"/>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles"/>
+        </return>
+      </docblock>
+      <parameter name="title" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getSubtitle" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setSubtitle" start="48" end="52" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$subtitle"/>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasTitles" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasTitles"/>
+        </return>
+      </docblock>
+      <parameter name="subtitle" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasDescription" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasDescription">
+    <member name="description" visibility="protected" static="false" line="11">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <method name="getDescription" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setDescription" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$description"/>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasDescription" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasDescription"/>
+        </return>
+      </docblock>
+      <parameter name="description" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed">
+    <member name="generator" visibility="protected" static="false" line="13">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="lastBuildDate" visibility="protected" static="false" line="18">
+      <docblock>
+        <description/>
+        <var type="object">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </var>
+      </docblock>
+    </member>
+    <method name="getGenerator" start="23" end="26" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setGenerator" start="32" end="36" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$generator"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed"/>
+        </return>
+      </docblock>
+      <parameter name="generator" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getLastBuildDate" start="41" end="44" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setLastBuildDate" start="50" end="54" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$lastBuildDate">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </param>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed"/>
+        </return>
+      </docblock>
+      <parameter name="lastBuildDate" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags">
+    <member name="type" visibility="protected" static="false" line="13">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="newFeedUrl" visibility="protected" static="false" line="18">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="owner" visibility="protected" static="false" line="23">
+      <docblock>
+        <description/>
+        <var type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+        </var>
+      </docblock>
+    </member>
+    <method name="getType" start="28" end="31" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="isEpisodic" start="36" end="39" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\bool" namespace="Lukaswhite\PodcastFeedParser\Traits" name="bool"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="isSerial" start="44" end="47" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\bool" namespace="Lukaswhite\PodcastFeedParser\Traits" name="bool"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setType" start="53" end="57" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$type"/>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+        </return>
+      </docblock>
+      <parameter name="type" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getNewFeedUrl" start="62" end="65" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setNewFeedUrl" start="71" end="75" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$newFeedUrl"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+        </return>
+      </docblock>
+      <parameter name="newFeedUrl" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getOwner" start="80" end="83" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setOwner" start="89" end="93" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$owner">
+          <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+        </param>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasItunesTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasItunesTags"/>
+        </return>
+      </docblock>
+      <parameter name="owner" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasAtomTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasAtomTags">
+    <member name="atomLinks" default="" type="array" visibility="protected" static="false" line="13">
+      <docblock>
+        <description/>
+        <var type="array"/>
+      </docblock>
+    </member>
+    <method name="getAtomLinks" start="18" end="21" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="array"/>
+      </docblock>
+    </method>
+    <method name="addAtomLink" start="27" end="31" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$link">
+          <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+        </param>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasAtomTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasAtomTags"/>
+        </return>
+      </docblock>
+      <parameter name="link" byreference="false" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+      </parameter>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasSyndicationTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasSyndicationTags">
+    <member name="updatePeriod" visibility="protected" static="false" line="11">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="updateFrequency" visibility="protected" static="false" line="16">
+      <docblock>
+        <description/>
+        <var type="int"/>
+      </docblock>
+    </member>
+    <member name="updateBase" visibility="protected" static="false" line="21">
+      <docblock>
+        <description/>
+        <var type="object">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </var>
+      </docblock>
+    </member>
+    <method name="getUpdatePeriod" start="26" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setUpdatePeriod" start="35" end="39" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$updatePeriod"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasSyndicationTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasSyndicationTags"/>
+        </return>
+      </docblock>
+      <parameter name="updatePeriod" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getUpdateFrequency" start="44" end="47" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="int"/>
+      </docblock>
+    </method>
+    <method name="setUpdateFrequency" start="53" end="57" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="int" variable="$updateFrequency"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasSyndicationTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasSyndicationTags"/>
+        </return>
+      </docblock>
+      <parameter name="updateFrequency" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getUpdateBase" start="62" end="65" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setUpdateBase" start="71" end="75" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$updateBase">
+          <type full="\DateTime" namespace="" name="DateTime"/>
+        </param>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasSyndicationTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasSyndicationTags"/>
+        </return>
+      </docblock>
+      <parameter name="updateBase" byreference="false" type="object">
+        <type full="DateTime" namespace="" name="DateTime"/>
+      </parameter>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags">
+    <member name="rawvoiceRating" visibility="protected" static="false" line="13">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="rawvoiceLocation" visibility="protected" static="false" line="18">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="rawvoiceFrequency" visibility="protected" static="false" line="23">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="rawvoiceSubscribe" visibility="protected" static="false" line="28">
+      <docblock>
+        <description/>
+        <var type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+        </var>
+      </docblock>
+    </member>
+    <method name="getRawvoiceRating" start="33" end="36" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setRawvoiceRating" start="42" end="46" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rawvoiceRating"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+        </return>
+      </docblock>
+      <parameter name="rawvoiceRating" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getRawvoiceLocation" start="51" end="54" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setRawvoiceLocation" start="60" end="64" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rawvoiceLocation"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+        </return>
+      </docblock>
+      <parameter name="rawvoiceLocation" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getRawvoiceFrequency" start="69" end="72" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setRawvoiceFrequency" start="78" end="82" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rawvoiceFrequency"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+        </return>
+      </docblock>
+      <parameter name="rawvoiceFrequency" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getRawvoiceSubscribe" start="87" end="90" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setRawvoiceSubscribe" start="96" end="100" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$rawvoiceSubscribe">
+          <type full="Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe" namespace="Lukaswhite\PodcastFeedParser\Rawvoice" name="Subscribe"/>
+        </param>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasRawvoiceTags"/>
+        </return>
+      </docblock>
+      <parameter name="rawvoiceSubscribe" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasArtwork">
+    <member name="artwork" visibility="protected" static="false" line="13">
+      <docblock>
+        <description/>
+        <var type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+        </var>
+      </docblock>
+    </member>
+    <method name="getArtwork" start="18" end="21" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+        </return>
+      </docblock>
+    </method>
+    <method name="setArtwork" start="27" end="31" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$artwork">
+          <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+        </param>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasArtwork"/>
+        </return>
+      </docblock>
+      <parameter name="artwork" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink">
+    <member name="link" visibility="protected" static="false" line="11">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <method name="getLink" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setLink" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$link"/>
+        <return resolution="self" type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink"/>
+        </return>
+      </docblock>
+      <return type="object" nullable="false">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink"/>
+      </return>
+      <parameter name="link" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasExplicit" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasExplicit">
+    <member name="explicit" visibility="protected" static="false" line="11">
+      <docblock>
+        <description/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <method name="getExplicit" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <return type="string"/>
+      </docblock>
+    </method>
+    <method name="setExplicit" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$explicit"/>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\HasExplicit" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasExplicit"/>
+        </return>
+      </docblock>
+      <parameter name="explicit" byreference="false" type="{unknown}"/>
+    </method>
+  </trait>
+  <trait full="Lukaswhite\PodcastFeedParser\Traits\HasCategories" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasCategories">
+    <member name="categories" visibility="protected" static="false" line="17">
+      <docblock>
+        <description/>
+        <var type="array"/>
+      </docblock>
+    </member>
+    <method name="getCategories" start="23" end="34" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$type"/>
+        <return type="array"/>
+      </docblock>
+      <parameter name="type" byreference="false" type="string" default="NULL"/>
+    </method>
+    <method name="addCategory" start="40" end="44" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="object" variable="$category">
+          <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+        </param>
+        <return type="object">
+          <type full="Lukaswhite\PodcastFeedParser\Traits\$this" namespace="Lukaswhite\PodcastFeedParser\Traits" name="$this"/>
+        </return>
+      </docblock>
+      <return type="object" nullable="false">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasCategories" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasCategories"/>
+      </return>
+      <parameter name="category" byreference="false" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </parameter>
+    </method>
+  </trait>
+</class>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Contracts\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Contracts" name="HasArtwork" abstract="false" final="false" start="7" end="10">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Contracts" file="HasArtwork.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Contracts/HasArtwork.php" size="85" time="2020-12-03T03:01:51+00:00" unixtime="1606964511" sha1="9067c6d12beee7fb09d129385a449e7619b49cb1" relative="Contracts/HasArtwork.php"/>
+  <implementors>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </implementors>
+</interface>

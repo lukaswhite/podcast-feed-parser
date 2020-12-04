@@ -19,6 +19,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
+	<sy:updateBase>2020-01-01T12:00+00:00</sy:updateBase>
 	<generator>https://wordpress.org/?v=5.5.1</generator>
 	<!-- podcast_generator="Blubrry PowerPress/8.4.3" mode="advanced" feedslug="podcast" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
 	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
@@ -44,7 +45,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	</itunes:category>
 	<googleplay:category text="Technology"/>
 	<rawvoice:rating>TV-G</rawvoice:rating>
-	<rawvoice:location>Traverse City, Michigan </rawvoice:location>
+	<rawvoice:location>Traverse City, Michigan</rawvoice:location>
 	<rawvoice:frequency>Twice Weekly</rawvoice:frequency>
 	<rawvoice:subscribe feed="https://www.podcasthelpdesk.com/feed/podcast/" html="https://www.podcasthelpdesk.com/subscribe-to-podcast/" itunes="https://itunes.apple.com/us/podcast/podcast-help-desk/id939440023?mt=2" blubrry="https://www.blubrry.com/phd/" stitcher="https://www.stitcher.com/show/podcasting-tech-coach" tunein="http://tunein.com/radio/Podcast-Help-Desk-p615263/"></rawvoice:subscribe>
 	<item>

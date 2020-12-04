@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException" namespace="Lukaswhite\PodcastFeedParser\Exceptions" name="InvalidXmlException" abstract="false" final="false" start="7" end="10">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Exceptions" file="InvalidXmlException.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Exceptions/InvalidXmlException.php" size="110" time="2020-12-03T04:23:35+00:00" unixtime="1606969415" sha1="8348e020e78168c39396f497dcde04231e536bd1" relative="Exceptions/InvalidXmlException.php"/>
+  <extends full="Exception" namespace="" name="Exception"/>
+  <parent full="Exception" namespace="" name="Exception">
+    <member name="message" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The exception message"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+    <member name="code" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The exception code"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+    <member name="file" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The filename where the exception was created"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+    <member name="line" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The line where the exception was created"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+    <constructor name="__construct" abstract="false" static="false" visibility="public" final="false">
+    <docblock>
+      <description compact="Construct the exception"/>
+      <return type="void"/>
+    </docblock>
+    <parameter name="message" optional="true" byreference="false" type="string"/>
+    <parameter name="code" optional="true" byreference="false" type="int"/>
+    <parameter name="previous" optional="true" byreference="false" type="object" class="Throwable"/>
+  </constructor>
+    <method name="getMessage" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the Exception message"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="getPrevious" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Returns previous Exception"/>
+      <return type="Throwable"/>
+    </docblock>
+  </method>
+    <method name="getCode" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the Exception code"/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+    <method name="getFile" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the file in which the exception was created"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="getLine" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the line in which the exception was created"/>
+      <return type="int"/>
+    </docblock>
+  </method>
+    <method name="getTrace" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the stack trace"/>
+      <return type="array"/>
+    </docblock>
+  </method>
+    <method name="getTraceAsString" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the stack trace as a string"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="__toString" abstract="false" static="false" visibility="public" final="false">
+    <docblock>
+      <description compact="String representation of the exception"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  </parent>
+</class>

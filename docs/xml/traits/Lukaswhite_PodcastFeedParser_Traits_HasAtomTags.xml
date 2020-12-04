@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasAtomTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasAtomTags" abstract="false" final="false" start="8" end="33">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasAtomTags.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasAtomTags.php" size="477" time="2020-12-04T00:58:29+00:00" unixtime="1607043509" sha1="1f18b73496a01bd5f7091074aa5cf251495fd6b3" relative="Traits/HasAtomTags.php"/>
+  <member name="atomLinks" default="" type="array" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <method name="getAtomLinks" start="18" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array"/>
+    </docblock>
+  </method>
+  <method name="addAtomLink" start="27" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$link">
+        <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+      </param>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasAtomTags" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasAtomTags"/>
+      </return>
+    </docblock>
+    <parameter name="link" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+    </parameter>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </users>
+</trait>

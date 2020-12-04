@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category" abstract="false" final="false" start="5" end="79">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src" file="Category.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Category.php" size="1241" time="2020-12-03T04:11:31+00:00" unixtime="1606968691" sha1="ae06faf2b8daf0bbefdc8bcc59dd11a39f481f0f" relative="Category.php"/>
+  <constant type="string" name="ITUNES" value="'itunes'"/>
+  <constant type="string" name="GOOGLE_PLAY" value="'googleplay'"/>
+  <member name="name" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="type" visibility="protected" static="false" line="18">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="subCategories" default="" type="array" visibility="protected" static="false" line="23">
+    <docblock>
+      <description/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <method name="getName" start="28" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setName" start="37" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$name"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </return>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getType" start="46" end="49" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setType" start="55" end="59" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$type"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </return>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getSubCategories" start="64" end="67" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array"/>
+    </docblock>
+  </method>
+  <method name="addSubCategory" start="73" end="77" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$subCategory">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </return>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+    </return>
+    <parameter name="subCategory" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+    </parameter>
+  </method>
+</class>

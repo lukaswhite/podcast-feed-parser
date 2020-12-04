@@ -2,16 +2,31 @@
 
 namespace Lukaswhite\PodcastFeedParser;
 
-use Lukaswhite\PodcastFeedParser\Contracts\HasArtwork;
 use Lukaswhite\PodcastFeedParser\Exceptions\FileNotFoundException;
 use Lukaswhite\PodcastFeedParser\Exceptions\InvalidXmlException;
+use Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe;
 
+/**
+ * Class Parser
+ *
+ * Parse a podcast feed.
+ *
+ * @package Lukaswhite\PodcastFeedParser
+ */
 class Parser
 {
+    /**
+     * Class constants for the various namespaces
+     */
     const NS_ITUNES = 'http://www.itunes.com/dtds/podcast-1.0.dtd';
     const NS_GOOGLE_PLAY = 'http://www.google.com/schemas/play-podcasts/1.0';
+    const NS_ATOM = 'http://www.w3.org/2005/Atom';
+    const NS_SYNDICATION = 'http://purl.org/rss/1.0/modules/syndication/';
+    const NS_RAWVOICE = 'http://www.rawvoice.com/rawvoiceRssModule/';
 
     /**
+     * The raw feed content
+     *
      * @var string
      */
     protected $content;
@@ -42,6 +57,7 @@ class Parser
      * @param string $filepath
      * @return self
      * @throws FileNotFoundException
+     * @throws InvalidXmlException
      */
     public function load(string $filepath): self
     {
@@ -53,7 +69,10 @@ class Parser
     }
 
     /**
+     * Run the parser and return an object that represents the parsed podcast.
+     *
      * @return Podcast
+     * @throws \Exception
      */
     public function run(): Podcast
     {
@@ -68,8 +87,18 @@ class Parser
             ->setCopyright($this->sp->get_copyright())
             ->setLink($this->sp->get_link());
 
+        $this->parseRssTags($podcast);
+        $this->parseAtomTags($podcast);
+        $this->parseSyndicationFields($podcast);
+        $this->parseRawvoiceFields($podcast);
+
         if ($this->sp->get_author()) {
             $podcast->setAuthor($this->sp->get_author()->get_name());
+        }
+
+        $iTunesType = $this->sp->get_channel_tags(self::NS_ITUNES, 'type');
+        if ($iTunesType && count($iTunesType)) {
+            $podcast->setType($iTunesType[0]['data']);
         }
 
         $editor = $this->sp->get_channel_tags('', 'managingEditor');
@@ -86,6 +115,12 @@ class Parser
         if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'explicit')) {
             $podcast->setExplicit(
                 $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'explicit')['data']
+            );
+        }
+
+        if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'new-feed-url')) {
+            $podcast->setNewFeedUrl(
+                $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'new-feed-url')['data']
             );
         }
 
@@ -143,6 +178,7 @@ class Parser
             }
         }
 
+        // Now add the episodes
         foreach ($this->sp->get_items() as $item) {
             $podcast->addEpisode($this->parseEpisodeItem($item));
         }
@@ -150,6 +186,96 @@ class Parser
         return $podcast;
     }
 
+    /**
+     * @param Podcast $podcast
+     * @throws \Exception
+     */
+    protected function parseRssTags(Podcast $podcast)
+    {
+        $generator = $this->sp->get_channel_tags('', 'generator');
+        if ($generator && count($generator)) {
+            $podcast->setGenerator($generator[0]['data']);
+        }
+
+        $lastBuildDate = $this->sp->get_channel_tags('', 'lastBuildDate');
+        if ($lastBuildDate && count($lastBuildDate)) {
+            $podcast->setLastBuildDate((new \DateTime())->setTimestamp(strtotime($lastBuildDate[0]['data'])));
+        }
+    }
+
+    /**
+     * @param Podcast $podcast
+     */
+    protected function parseAtomTags(Podcast $podcast)
+    {
+        $atomLinks = $this->sp->get_channel_tags(self::NS_ATOM, 'link');
+        if($atomLinks && count($atomLinks)) {
+            foreach ($atomLinks as $atomLink) {
+                $link = new Link($atomLink['attribs']['']['href']);
+                if (isset($atomLink['attribs']['']['rel'])) {
+                    $link->setRel($atomLink['attribs']['']['rel']);
+                }
+                if (isset($atomLink['attribs']['']['type'])) {
+                    $link->setType($atomLink['attribs']['']['type']);
+                }
+                $podcast->addAtomLink($link);
+            }
+        }
+    }
+
+    /**
+     * @param Podcast $podcast
+     * @throws \Exception
+     */
+    protected function parseSyndicationFields(Podcast $podcast)
+    {
+        $updatePeriod = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updatePeriod');
+        if($updatePeriod&&count($updatePeriod)) {
+            $podcast->setUpdatePeriod($updatePeriod[0]['data']);
+        }
+        $updateFrequency = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updateFrequency');
+        if($updateFrequency&&count($updateFrequency)) {
+            $podcast->setUpdateFrequency(intval($updateFrequency[0]['data']));
+        }
+        $updateBase = $this->sp->get_channel_tags(self::NS_SYNDICATION, 'updateBase');
+        if($updateBase&&count($updateBase)) {
+            $podcast->setUpdateBase((new \DateTime())->setTimestamp(strtotime($updateBase[0]['data'])));
+        }
+    }
+
+    /**
+     * @param Podcast $podcast
+     * @throws \Exception
+     */
+    protected function parseRawvoiceFields(Podcast $podcast)
+    {
+        $rating = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'rating');
+        if($rating&&count($rating)) {
+            $podcast->setRawvoiceRating($rating[0]['data']);
+        }
+        $location = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'location');
+        if($location&&count($location)) {
+            $podcast->setRawvoiceLocation($location[0]['data']);
+        }
+        $frequency = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'frequency');
+        if($frequency&&count($frequency)) {
+            $podcast->setRawvoiceFrequency($frequency[0]['data']);
+        }
+        $subscribe = $this->sp->get_channel_tags(self::NS_RAWVOICE, 'subscribe');
+        if($subscribe&&count($subscribe)) {
+            $links = new Subscribe();
+            foreach($subscribe[0]['attribs'][''] as $platform => $link) {
+                $links->addLink($platform,$link);
+            }
+            $podcast->setRawvoiceSubscribe($links);
+        }
+    }
+
+    /**
+     * @param \SimplePie_Item $item
+     * @return Episode
+     * @throws \Exception
+     */
     protected function parseEpisodeItem(\SimplePie_Item $item)
     {
         $episode = new Episode();
@@ -210,6 +336,10 @@ class Parser
         return $episode;
     }
 
+    /**
+     * @param \SimplePie_Item $item
+     * @return Media
+     */
     protected function getFile(\SimplePie_Item $item): Media
     {
         $enclosure = $item->get_enclosure();
@@ -220,6 +350,12 @@ class Parser
         return $media;
     }
 
+    /**
+     * @param $namespace
+     * @param $name
+     * @param null $item
+     * @return mixed
+     */
     protected function getSingleNamespacedChannelItem($namespace, $name, $item = null )
     {
         $items = $this->sp->get_channel_tags($namespace, $name);

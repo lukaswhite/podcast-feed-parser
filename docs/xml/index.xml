@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/home/vagrant/Code/projects/podcast-feed-parser/src">
+  <namespace name="Lukaswhite\PodcastFeedParser">
+    <class name="Category" src="Category.php" xml="classes/Lukaswhite_PodcastFeedParser_Category.xml"/>
+    <class name="Podcast" src="Podcast.php" xml="classes/Lukaswhite_PodcastFeedParser_Podcast.xml"/>
+    <class name="Owner" src="Owner.php" xml="classes/Lukaswhite_PodcastFeedParser_Owner.xml"/>
+    <class name="Parser" src="Parser.php" description="Class Parser" xml="classes/Lukaswhite_PodcastFeedParser_Parser.xml"/>
+    <class name="Link" src="Link.php" xml="classes/Lukaswhite_PodcastFeedParser_Link.xml"/>
+    <class name="Episode" src="Episode.php" xml="classes/Lukaswhite_PodcastFeedParser_Episode.xml"/>
+    <class name="Artwork" src="Artwork.php" xml="classes/Lukaswhite_PodcastFeedParser_Artwork.xml"/>
+    <class name="Media" src="Media.php" xml="classes/Lukaswhite_PodcastFeedParser_Media.xml"/>
+  </namespace>
+  <namespace name="Lukaswhite\PodcastFeedParser\Rawvoice">
+    <class name="Subscribe" src="Rawvoice/Subscribe.php" description="Class Subscribe" xml="classes/Lukaswhite_PodcastFeedParser_Rawvoice_Subscribe.xml"/>
+  </namespace>
+  <namespace name="Lukaswhite\PodcastFeedParser\Traits">
+    <trait name="HasTitles" src="Traits/HasTitles.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasTitles.xml"/>
+    <trait name="HasArtwork" src="Traits/HasArtwork.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasArtwork.xml"/>
+    <trait name="HasDescription" src="Traits/HasDescription.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasDescription.xml"/>
+    <trait name="IsRssFeed" src="Traits/IsRssFeed.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_IsRssFeed.xml"/>
+    <trait name="HasAtomTags" src="Traits/HasAtomTags.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasAtomTags.xml"/>
+    <trait name="HasLink" src="Traits/HasLink.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasLink.xml"/>
+    <trait name="HasExplicit" src="Traits/HasExplicit.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasExplicit.xml"/>
+    <trait name="HasCategories" src="Traits/HasCategories.php" description="Trait HasCategories" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasCategories.xml"/>
+    <trait name="HasItunesTags" src="Traits/HasItunesTags.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasItunesTags.xml"/>
+    <trait name="HasSyndicationTags" src="Traits/HasSyndicationTags.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasSyndicationTags.xml"/>
+    <trait name="HasUri" src="Traits/HasUri.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasUri.xml"/>
+    <trait name="HasRawvoiceTags" src="Traits/HasRawvoiceTags.php" xml="traits/Lukaswhite_PodcastFeedParser_Traits_HasRawvoiceTags.xml"/>
+  </namespace>
+  <namespace name="Lukaswhite\PodcastFeedParser\Contracts">
+    <interface name="HasArtwork" src="Contracts/HasArtwork.php" xml="interfaces/Lukaswhite_PodcastFeedParser_Contracts_HasArtwork.xml"/>
+  </namespace>
+  <namespace name="Lukaswhite\PodcastFeedParser\Exceptions">
+    <class name="InvalidXmlException" src="Exceptions/InvalidXmlException.php" xml="classes/Lukaswhite_PodcastFeedParser_Exceptions_InvalidXmlException.xml"/>
+    <class name="FileNotFoundException" src="Exceptions/FileNotFoundException.php" xml="classes/Lukaswhite_PodcastFeedParser_Exceptions_FileNotFoundException.xml"/>
+  </namespace>
+  <namespace name="">
+    <class name="Exception" xml="classes/Exception.xml"/>
+  </namespace>
+</index>

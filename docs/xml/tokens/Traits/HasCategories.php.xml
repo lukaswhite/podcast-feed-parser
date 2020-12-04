@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasCategories.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasCategories.php" size="877" time="2020-12-03T04:11:30+00:00" unixtime="1606968690" sha1="7d1d2d54c5a0707ca3ce7178306e0ef79ded982a" relative="Traits/HasCategories.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3"/>
+  <line no="4">
+    <token name="T_NAMESPACE">namespace</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Lukaswhite</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">PodcastFeedParser</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Traits</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="5"/>
+  <line no="6">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Lukaswhite</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">PodcastFeedParser</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Category</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="7"/>
+  <line no="8">
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="9">
+    <token name="T_DOC_COMMENT"> * Trait HasCategories</token>
+  </line>
+  <line no="10">
+    <token name="T_DOC_COMMENT"> * @package Lukaswhite\PodcastFeedParser\Traits</token>
+  </line>
+  <line no="11">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+  <line no="12">
+    <token name="T_TRAIT">trait</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HasCategories</token>
+  </line>
+  <line no="13">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="14">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="15">
+    <token name="T_DOC_COMMENT">     * @var array</token>
+  </line>
+  <line no="16">
+    <token name="T_DOC_COMMENT">     */</token>
+  </line>
+  <line no="17">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PROTECTED">protected</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$categories</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="18"/>
+  <line no="19">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="20">
+    <token name="T_DOC_COMMENT">     * @param string $type</token>
+  </line>
+  <line no="21">
+    <token name="T_DOC_COMMENT">     * @return array</token>
+  </line>
+  <line no="22">
+    <token name="T_DOC_COMMENT">     */</token>
+  </line>
+  <line no="23">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">getCategories</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">string</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$type</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">null</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="24">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="25">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_IF">if</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_EXCLAMATION_MARK">!</token>
+    <token name="T_VARIABLE">$type</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="26">
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_RETURN">return</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$this</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">categories</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="27">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="28">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_RETURN">return</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">array_values</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">array_filter</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+  </line>
+  <line no="29">
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_VARIABLE">$this</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">categories</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="30">
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">Category</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$category</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$type</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="31">
+    <token name="T_WHITESPACE">                </token>
+    <token name="T_RETURN">return</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$category</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">getType</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_IS_IDENTICAL">===</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$type</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="32">
+    <token name="T_WHITESPACE">            </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="33">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="34">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="35"/>
+  <line no="36">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="37">
+    <token name="T_DOC_COMMENT">     * @param Category $category</token>
+  </line>
+  <line no="38">
+    <token name="T_DOC_COMMENT">     * @return $this</token>
+  </line>
+  <line no="39">
+    <token name="T_DOC_COMMENT">     */</token>
+  </line>
+  <line no="40">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">addCategory</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">Category</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$category</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_COLON">:</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">self</token>
+  </line>
+  <line no="41">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="42">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_VARIABLE">$this</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">categories</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$category</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="43">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_RETURN">return</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$this</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="44">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="45">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+</source>

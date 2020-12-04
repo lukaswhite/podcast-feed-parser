@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasArtwork" abstract="false" final="false" start="8" end="33">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasArtwork.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasArtwork.php" size="480" time="2020-12-03T02:43:22+00:00" unixtime="1606963402" sha1="9c20e123ed642ede32085a4f144bf7230e09bd73" relative="Traits/HasArtwork.php"/>
+  <member name="artwork" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="getArtwork" start="18" end="21" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setArtwork" start="27" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$artwork">
+        <type full="Lukaswhite\PodcastFeedParser\Artwork" namespace="Lukaswhite\PodcastFeedParser" name="Artwork"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasArtwork" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasArtwork"/>
+      </return>
+    </docblock>
+    <parameter name="artwork" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    <class full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+  </users>
+</trait>

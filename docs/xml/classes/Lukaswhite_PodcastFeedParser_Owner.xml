@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner" abstract="false" final="false" start="5" end="53">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src" file="Owner.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Owner.php" size="725" time="2020-12-03T03:47:55+00:00" unixtime="1606967275" sha1="ab106358b70ea2c422ac331e2d054c6e12198113" relative="Owner.php"/>
+  <member name="name" visibility="protected" static="false" line="10">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="email" visibility="protected" static="false" line="15">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getName" start="20" end="23" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+  <method name="setName" start="29" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="mixed" variable="$name"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+      </return>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getEmail" start="38" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+  <method name="setEmail" start="47" end="51" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="mixed" variable="$email"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Owner" namespace="Lukaswhite\PodcastFeedParser" name="Owner"/>
+      </return>
+    </docblock>
+    <parameter name="email" byreference="false" type="{unknown}"/>
+  </method>
+</class>

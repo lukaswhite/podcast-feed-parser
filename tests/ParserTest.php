@@ -64,6 +64,90 @@ class ParserTest extends \PHPUnit\Framework\TestCase
 
     }
 
+    public function test_can_get_standard_rss_fields()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
+        $podcast = $parser->run();
+        $this->assertEquals('https://wordpress.org/?v=5.5.1', $podcast->getGenerator());
+        $this->assertInstanceOf(\DateTime::class,$podcast->getLastBuildDate());
+        $this->assertEquals('2020-11-30 21:57:33',$podcast->getLastBuildDate()->format('Y-m-d H:i:s'));
+        $this->assertEquals('episodic',$podcast->getType());
+        $this->assertTrue($podcast->isEpisodic());
+    }
+
+    public function test_can_get_atom_fields()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
+        $podcast = $parser->run();
+        $this->assertTrue(is_array($podcast->getAtomLinks()));
+        $this->assertEquals(2, count($podcast->getAtomLinks()));
+
+        /** @var \Lukaswhite\PodcastFeedParser\Link $link */
+        $link = $podcast->getAtomLinks()[0];
+        $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Link::class,$link);
+        $this->assertEquals('https://www.podcasthelpdesk.com/feed/podcast/',$link->getUri());
+        $this->assertEquals('self',$link->getRel());
+        $this->assertEquals('application/rss+xml',$link->getType());
+    }
+
+    public function test_can_get_syndication_fields()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
+        $podcast = $parser->run();
+        $this->assertEquals('hourly',$podcast->getUpdatePeriod());
+        $this->assertEquals(1,$podcast->getUpdateFrequency());
+        $this->assertInstanceOf(\DateTime::class,$podcast->getUpdateBase());
+        $this->assertEquals('2020-01-01 12:00:00',$podcast->getUpdateBase()->format('Y-m-d H:i:s'));
+    }
+
+    public function test_can_get_itunes_fields()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
+        $podcast = $parser->run();
+        $this->assertEquals('https://www.podcasthelpdesk.com/feed/podcast/', $podcast->getNewFeedUrl());
+    }
+
+    public function test_can_get_rawvoice_fields()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->setContent(file_get_contents('./tests/fixtures/feed.rss'));
+        $podcast = $parser->run();
+        $this->assertEquals('TV-G', $podcast->getRawvoiceRating());
+        $this->assertEquals('Traverse City, Michigan', $podcast->getRawvoiceLocation());
+        $this->assertEquals('Twice Weekly', $podcast->getRawvoiceFrequency());
+        $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::class,$podcast->getRawvoiceSubscribe());
+        $links = $podcast->getRawvoiceSubscribe();
+        $this->assertTrue(is_array($links->getLinks()));
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::FEED, $links->getLinks());
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::HTML, $links->getLinks());
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::ITUNES, $links->getLinks());
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::BLUBRRY, $links->getLinks());
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::TUNEIN, $links->getLinks());
+        $this->assertArrayHasKey(\Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::STITCHER, $links->getLinks());
+        $this->assertEquals('https://www.podcasthelpdesk.com/feed/podcast/',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::FEED
+        ));
+        $this->assertEquals('https://www.podcasthelpdesk.com/subscribe-to-podcast/',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::HTML
+        ));
+        $this->assertEquals('https://itunes.apple.com/us/podcast/podcast-help-desk/id939440023?mt=2',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::ITUNES
+        ));
+        $this->assertEquals('https://www.blubrry.com/phd/',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::BLUBRRY
+        ));
+        $this->assertEquals('http://tunein.com/radio/Podcast-Help-Desk-p615263/',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::TUNEIN
+        ));
+        $this->assertEquals('https://www.stitcher.com/show/podcasting-tech-coach',$links->getLink(
+            \Lukaswhite\PodcastFeedParser\Rawvoice\Subscribe::STITCHER
+        ));
+    }
+
     public function test_can_get_episodes()
     {
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();
@@ -128,6 +212,8 @@ The Good News and part of the "big" announcement I teased is this show is going 
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();
         $parser->setContent(file_get_contents('./tests/fixtures/seasons.rss'));
         $podcast = $parser->run();
+
+        $this->assertTrue($podcast->isSerial());
 
         /** @var \Lukaswhite\PodcastFeedParser\Episode $episode */
         $episode = $podcast->getEpisodes()[0];

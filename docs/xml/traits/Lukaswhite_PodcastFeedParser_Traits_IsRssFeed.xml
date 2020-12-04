@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed" abstract="false" final="false" start="8" end="56">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="IsRssFeed.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/IsRssFeed.php" size="905" time="2020-12-04T00:31:05+00:00" unixtime="1607041865" sha1="3accb9566149c395bc6dd017a263dfe0ecc06f95" relative="Traits/IsRssFeed.php"/>
+  <member name="generator" visibility="protected" static="false" line="13">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="lastBuildDate" visibility="protected" static="false" line="18">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="\DateTime" namespace="" name="DateTime"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="getGenerator" start="23" end="26" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setGenerator" start="32" end="36" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$generator"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed"/>
+      </return>
+    </docblock>
+    <parameter name="generator" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getLastBuildDate" start="41" end="44" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="\DateTime" namespace="" name="DateTime"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="setLastBuildDate" start="50" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$lastBuildDate">
+        <type full="\DateTime" namespace="" name="DateTime"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\IsRssFeed" namespace="Lukaswhite\PodcastFeedParser\Traits" name="IsRssFeed"/>
+      </return>
+    </docblock>
+    <parameter name="lastBuildDate" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </users>
+</trait>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink" abstract="false" final="false" start="6" end="30">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasLink.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasLink.php" size="406" time="2020-12-03T03:34:36+00:00" unixtime="1606966476" sha1="67bd5fc2497f06e6666f3923b352ed0631a47600" relative="Traits/HasLink.php"/>
+  <member name="link" visibility="protected" static="false" line="11">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="getLink" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setLink" start="25" end="29" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$link"/>
+      <return resolution="self" type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink"/>
+      </return>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Traits\HasLink" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasLink"/>
+    </return>
+    <parameter name="link" byreference="false" type="{unknown}"/>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+    <class full="Lukaswhite\PodcastFeedParser\Episode" namespace="Lukaswhite\PodcastFeedParser" name="Episode"/>
+  </users>
+</trait>

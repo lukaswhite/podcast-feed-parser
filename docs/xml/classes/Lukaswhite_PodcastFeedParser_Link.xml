@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link" abstract="false" final="false" start="5" end="75">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src" file="Link.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Link.php" size="1031" time="2020-12-04T01:02:28+00:00" unixtime="1607043748" sha1="2efc71209a1f9f2d457970963fd366ebf01c95e3" relative="Link.php"/>
+  <member name="uri" visibility="protected" static="false" line="10">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="rel" visibility="protected" static="false" line="15">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="type" visibility="protected" static="false" line="20">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="27" end="30" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Link constructor."/>
+      <param type="string" variable="$uri"/>
+    </docblock>
+    <parameter name="uri" byreference="false" type="string"/>
+  </constructor>
+  <method name="getUri" start="35" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="getRel" start="43" end="46" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setRel" start="52" end="56" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$rel"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+      </return>
+    </docblock>
+    <parameter name="rel" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getType" start="61" end="64" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="setType" start="70" end="74" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$type"/>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Link" namespace="Lukaswhite\PodcastFeedParser" name="Link"/>
+      </return>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+  </method>
+</class>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - Lukaswhite\PodcastFeedParser\Parser</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li>
+          <a href="../traits.xhtml">Traits</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#Lukaswhite_PodcastFeedParser">Lukaswhite\PodcastFeedParser</a>
+          </li>
+          <li class="separator">Parser</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Parser.php.xhtml#line16">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>Lukaswhite\PodcastFeedParser\</small>Parser</h1>
+        <h4>Class Parser</h4>
+        <p>Parse a podcast feed.</p>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Parser
+            {<br/><ul class="none"><li>// constants</li><li>const NS_ITUNES = 'http://www.itunes.com/dtds/podcast-1.0.dtd';</li><li>const NS_GOOGLE_PLAY = 'http://www.google.com/schemas/play-podcasts/1.0';</li><li>const NS_ATOM = 'http://www.w3.org/2005/Atom';</li><li>const NS_SYNDICATION = 'http://purl.org/rss/1.0/modules/syndication/';</li><li>const NS_RAWVOICE = 'http://www.rawvoice.com/rawvoiceRssModule/';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$content</a>;
+                    </li><li>protected <span title="\SimplePie">SimplePie</span> <a href="#members">$sp</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public <span title="Parser">Parser</span> <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/setContent.xhtml">setContent</a>()
+                    </li><li>public <span title="Parser">Parser</span> <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/load.xhtml">load</a>()
+                    </li><li>public <span title="Podcast">Podcast</span> <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/run.xhtml">run</a>()
+                    </li><li>protected void <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseRssTags.xhtml">parseRssTags</a>()
+                    </li><li>protected void <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseAtomTags.xhtml">parseAtomTags</a>()
+                    </li><li>protected void <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseSyndicationFields.xhtml">parseSyndicationFields</a>()
+                    </li><li>protected void <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseRawvoiceFields.xhtml">parseRawvoiceFields</a>()
+                    </li><li>protected Episode <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseEpisodeItem.xhtml">parseEpisodeItem</a>()
+                    </li><li>protected <span title="Media">Media</span> <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/getFile.xhtml">getFile</a>()
+                    </li><li>protected mixed <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/getSingleNamespacedChannelItem.xhtml">getSingleNamespacedChannelItem</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="NS_ITUNES">NS_ITUNES</td>
+              <td>'http://www.itunes.com/dtds/podcast-1.0.dtd'</td>
+            </tr>
+            <tr>
+              <td id="NS_GOOGLE_PLAY">NS_GOOGLE_PLAY</td>
+              <td>'http://www.google.com/schemas/play-podcasts/1.0'</td>
+            </tr>
+            <tr>
+              <td id="NS_ATOM">NS_ATOM</td>
+              <td>'http://www.w3.org/2005/Atom'</td>
+            </tr>
+            <tr>
+              <td id="NS_SYNDICATION">NS_SYNDICATION</td>
+              <td>'http://purl.org/rss/1.0/modules/syndication/'</td>
+            </tr>
+            <tr>
+              <td id="NS_RAWVOICE">NS_RAWVOICE</td>
+              <td>'http://www.rawvoice.com/rawvoiceRssModule/'</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="content"><strong>$content</strong>
+                —
+                string<br/><span class="indent">The raw feed content</span></li>
+            <li id="sp"><strong>$sp</strong>
+                —
+                <a title="\SimplePie" href="../classes/_SimplePie.xhtml">\SimplePie</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>protected</h4>
+          <ul>
+            <li id="getFile">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/getFile.xhtml">getFile()</a>
+            </li>
+            <li id="getSingleNamespacedChannelItem">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/getSingleNamespacedChannelItem.xhtml">getSingleNamespacedChannelItem()</a>
+            </li>
+            <li id="parseAtomTags">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseAtomTags.xhtml">parseAtomTags()</a>
+            </li>
+            <li id="parseEpisodeItem">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseEpisodeItem.xhtml">parseEpisodeItem()</a>
+            </li>
+            <li id="parseRawvoiceFields">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseRawvoiceFields.xhtml">parseRawvoiceFields()</a>
+            </li>
+            <li id="parseRssTags">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseRssTags.xhtml">parseRssTags()</a>
+            </li>
+            <li id="parseSyndicationFields">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/parseSyndicationFields.xhtml">parseSyndicationFields()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="load">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/load.xhtml">load()</a>
+            </li>
+            <li id="run"><a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/run.xhtml">run()</a>
+                — Run the parser and return an object that represents the parsed podcast.</li>
+            <li id="setContent">
+              <a title="Lukaswhite\PodcastFeedParser\Parser" href="../classes/Lukaswhite_PodcastFeedParser_Parser/setContent.xhtml">setContent()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2020 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

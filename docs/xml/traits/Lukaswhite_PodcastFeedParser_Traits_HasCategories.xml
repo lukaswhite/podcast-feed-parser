@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src" full="Lukaswhite\PodcastFeedParser\Traits\HasCategories" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasCategories" abstract="false" final="false" start="12" end="45">
+  <file path="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits" file="HasCategories.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Traits/HasCategories.php" size="877" time="2020-12-03T04:11:30+00:00" unixtime="1606968690" sha1="7d1d2d54c5a0707ca3ce7178306e0ef79ded982a" relative="Traits/HasCategories.php"/>
+  <docblock>
+    <description compact="Trait HasCategories"/>
+    <package value="Lukaswhite\PodcastFeedParser\Traits"/>
+  </docblock>
+  <member name="categories" visibility="protected" static="false" line="17">
+    <docblock>
+      <description/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <method name="getCategories" start="23" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$type"/>
+      <return type="array"/>
+    </docblock>
+    <parameter name="type" byreference="false" type="string" default="NULL"/>
+  </method>
+  <method name="addCategory" start="40" end="44" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$category">
+        <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+      </param>
+      <return type="object">
+        <type full="Lukaswhite\PodcastFeedParser\Traits\$this" namespace="Lukaswhite\PodcastFeedParser\Traits" name="$this"/>
+      </return>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Lukaswhite\PodcastFeedParser\Traits\HasCategories" namespace="Lukaswhite\PodcastFeedParser\Traits" name="HasCategories"/>
+    </return>
+    <parameter name="category" byreference="false" type="object">
+      <type full="Lukaswhite\PodcastFeedParser\Category" namespace="Lukaswhite\PodcastFeedParser" name="Category"/>
+    </parameter>
+  </method>
+  <users>
+    <class full="Lukaswhite\PodcastFeedParser\Podcast" namespace="Lukaswhite\PodcastFeedParser" name="Podcast"/>
+  </users>
+</trait>

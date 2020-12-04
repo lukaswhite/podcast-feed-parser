@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/home/vagrant/Code/projects/podcast-feed-parser/src/Contracts" file="HasArtwork.php" realpath="/home/vagrant/Code/projects/podcast-feed-parser/src/Contracts/HasArtwork.php" size="85" time="2020-12-03T03:01:51+00:00" unixtime="1606964511" sha1="9067c6d12beee7fb09d129385a449e7619b49cb1" relative="Contracts/HasArtwork.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3"/>
+  <line no="4">
+    <token name="T_NAMESPACE">namespace</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">Lukaswhite</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">PodcastFeedParser</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Contracts</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="5"/>
+  <line no="6"/>
+  <line no="7">
+    <token name="T_INTERFACE">interface</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">HasArtwork</token>
+  </line>
+  <line no="8">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="9"/>
+  <line no="10">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+</source>

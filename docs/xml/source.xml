@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/home/vagrant/Code/projects/podcast-feed-parser/src">
+    <file name="Category.php" size="1241" time="2020-12-03T04:11:31+00:00" unixtime="1606968691" sha1="ae06faf2b8daf0bbefdc8bcc59dd11a39f481f0f" xml="tokens/Category.php.xml"/>
+    <file name="Podcast.php" size="2921" time="2020-12-04T01:27:26+00:00" unixtime="1607045246" sha1="fba6049d5b6650c68dbb2c03e9226bb315ca79f8" xml="tokens/Podcast.php.xml"/>
+    <file name="Owner.php" size="725" time="2020-12-03T03:47:55+00:00" unixtime="1606967275" sha1="ab106358b70ea2c422ac331e2d054c6e12198113" xml="tokens/Owner.php.xml"/>
+    <dir name="Rawvoice">
+      <file name="Subscribe.php" size="992" time="2020-12-04T01:48:29+00:00" unixtime="1607046509" sha1="08c24407e0d200dae1f03609b65bbdb1ae7f6f6d" xml="tokens/Rawvoice/Subscribe.php.xml"/>
+    </dir>
+    <file name="Parser.php" size="12700" time="2020-12-04T01:41:26+00:00" unixtime="1607046086" sha1="a8f61d52a3be73d122f2a24015d90a7daad41b3a" xml="tokens/Parser.php.xml"/>
+    <file name="Link.php" size="1031" time="2020-12-04T01:02:28+00:00" unixtime="1607043748" sha1="2efc71209a1f9f2d457970963fd366ebf01c95e3" xml="tokens/Link.php.xml"/>
+    <dir name="Traits">
+      <file name="HasTitles.php" size="770" time="2020-12-03T02:41:46+00:00" unixtime="1606963306" sha1="df6a5ebb9d57604d2474e19c16150ba0a652e588" xml="tokens/Traits/HasTitles.php.xml"/>
+      <file name="HasArtwork.php" size="480" time="2020-12-03T02:43:22+00:00" unixtime="1606963402" sha1="9c20e123ed642ede32085a4f144bf7230e09bd73" xml="tokens/Traits/HasArtwork.php.xml"/>
+      <file name="HasDescription.php" size="463" time="2020-12-03T02:42:34+00:00" unixtime="1606963354" sha1="f7c8fe5b2ee897351d954db462fa03c779b20428" xml="tokens/Traits/HasDescription.php.xml"/>
+      <file name="IsRssFeed.php" size="905" time="2020-12-04T00:31:05+00:00" unixtime="1607041865" sha1="3accb9566149c395bc6dd017a263dfe0ecc06f95" xml="tokens/Traits/IsRssFeed.php.xml"/>
+      <file name="HasAtomTags.php" size="477" time="2020-12-04T00:58:29+00:00" unixtime="1607043509" sha1="1f18b73496a01bd5f7091074aa5cf251495fd6b3" xml="tokens/Traits/HasAtomTags.php.xml"/>
+      <file name="HasLink.php" size="406" time="2020-12-03T03:34:36+00:00" unixtime="1606966476" sha1="67bd5fc2497f06e6666f3923b352ed0631a47600" xml="tokens/Traits/HasLink.php.xml"/>
+      <file name="HasExplicit.php" size="444" time="2020-12-03T03:21:20+00:00" unixtime="1606965680" sha1="151b7eaadd41551d4106ef9c63ec0262af3b28d6" xml="tokens/Traits/HasExplicit.php.xml"/>
+      <file name="HasCategories.php" size="877" time="2020-12-03T04:11:30+00:00" unixtime="1606968690" sha1="7d1d2d54c5a0707ca3ce7178306e0ef79ded982a" xml="tokens/Traits/HasCategories.php.xml"/>
+      <file name="HasItunesTags.php" size="1449" time="2020-12-04T00:50:45+00:00" unixtime="1607043045" sha1="3ff14d500486fa7ef2c3f9248c9d4b4926a86866" xml="tokens/Traits/HasItunesTags.php.xml"/>
+      <file name="HasSyndicationTags.php" size="1306" time="2020-12-04T01:19:38+00:00" unixtime="1607044778" sha1="22814fa8234443f46b6f9fc773c82c4bca60a33e" xml="tokens/Traits/HasSyndicationTags.php.xml"/>
+      <file name="HasUri.php" size="437" time="2020-12-03T03:00:22+00:00" unixtime="1606964422" sha1="384c04322d8fae8811339415c75022baa855b884" xml="tokens/Traits/HasUri.php.xml"/>
+      <file name="HasRawvoiceTags.php" size="1883" time="2020-12-04T01:26:24+00:00" unixtime="1607045184" sha1="110d39eee7888599c5654e554ca90d61feaad096" xml="tokens/Traits/HasRawvoiceTags.php.xml"/>
+    </dir>
+    <dir name="Contracts">
+      <file name="HasArtwork.php" size="85" time="2020-12-03T03:01:51+00:00" unixtime="1606964511" sha1="9067c6d12beee7fb09d129385a449e7619b49cb1" xml="tokens/Contracts/HasArtwork.php.xml"/>
+    </dir>
+    <dir name="Exceptions">
+      <file name="InvalidXmlException.php" size="110" time="2020-12-03T04:23:35+00:00" unixtime="1606969415" sha1="8348e020e78168c39396f497dcde04231e536bd1" xml="tokens/Exceptions/InvalidXmlException.php.xml"/>
+      <file name="FileNotFoundException.php" size="112" time="2020-12-03T04:16:53+00:00" unixtime="1606969013" sha1="4c66a20bfc2ad1fc8be01501acd1ce3031ad6df6" xml="tokens/Exceptions/FileNotFoundException.php.xml"/>
+    </dir>
+    <file name="Episode.php" size="2587" time="2020-12-03T06:34:27+00:00" unixtime="1606977267" sha1="cc5dd24764d0f7dd5606017d40bd7cd72e10ae87" xml="tokens/Episode.php.xml"/>
+    <file name="Artwork.php" size="135" time="2020-12-03T03:00:32+00:00" unixtime="1606964432" sha1="a39e40bcb2996a7527ccd385f04cd9646134a2e3" xml="tokens/Artwork.php.xml"/>
+    <file name="Media.php" size="766" time="2020-12-03T03:00:25+00:00" unixtime="1606964425" sha1="b01688ae87fc33b7caa06d82c17adf541d0b0f86" xml="tokens/Media.php.xml"/>
+  </dir>
+</source>
