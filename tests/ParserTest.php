@@ -40,27 +40,27 @@ class ParserTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Category::class,$technology);
         $this->assertEquals('Technology',$technology->getName());
         $this->assertEquals(\Lukaswhite\PodcastFeedParser\Category::ITUNES,$technology->getType());
-        $this->assertEquals(0,count($technology->getSubCategories()));
+        $this->assertEquals(0,count($technology->getChildren()));
 
         /** @var \Lukaswhite\PodcastFeedParser\Category $business */
         $business = $podcast->getCategories(\Lukaswhite\PodcastFeedParser\Category::ITUNES)[1];
         $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Category::class,$business);
         $this->assertEquals('Business',$business->getName());
         $this->assertEquals(\Lukaswhite\PodcastFeedParser\Category::ITUNES,$business->getType());
-        $this->assertEquals(1,count($business->getSubCategories()));
+        $this->assertEquals(1,count($business->getChildren()));
         /** @var \Lukaswhite\PodcastFeedParser\Category $marketing */
-        $marketing = $business->getSubCategories()[0];
+        $marketing = $business->getChild('Marketing');
         $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Category::class,$marketing);
         $this->assertEquals('Marketing',$marketing->getName());
         $this->assertEquals(\Lukaswhite\PodcastFeedParser\Category::ITUNES,$marketing->getType());
-        $this->assertEquals(0,count($marketing->getSubCategories()));
+        $this->assertEquals(0,count($marketing->getChildren()));
 
         /** @var \Lukaswhite\PodcastFeedParser\Category $gpTechnology */
         $gpTechnology = $podcast->getCategories(\Lukaswhite\PodcastFeedParser\Category::GOOGLE_PLAY)[0];
         $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Category::class,$gpTechnology);
         $this->assertEquals('Technology',$gpTechnology->getName());
         $this->assertEquals(\Lukaswhite\PodcastFeedParser\Category::GOOGLE_PLAY,$gpTechnology->getType());
-        $this->assertEquals(0,count($gpTechnology->getSubCategories()));
+        $this->assertEquals(0,count($gpTechnology->getChildren()));
 
     }
 

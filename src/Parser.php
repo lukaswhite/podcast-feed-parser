@@ -189,19 +189,14 @@ class Parser
         $itunesCategories = $this->sp->get_channel_tags(self::NS_ITUNES, 'category');
         if ($itunesCategories && count($itunesCategories)) {
             foreach($itunesCategories as $categoryData) {
-                $category = new Category();
-                $category->setType(Category::ITUNES)
-                    ->setName(
-                        $this->sanitize($categoryData['attribs']['']['text'])
-                    );
+                $key = $this->sanitize($categoryData['attribs']['']['text']);
+                $category = new Category($key, $key);
+                $category->setType(Category::ITUNES);
                 if(isset($categoryData['child'])&&is_array($categoryData['child'])) {
                     foreach($categoryData['child'][self::NS_ITUNES]['category'] as $subCategoryData) {
-                        $category->addSubCategory(
-                            ( new Category() )
-                                ->setType(Category::ITUNES)
-                                ->setName(
-                                    $this->sanitize($subCategoryData['attribs']['']['text'])
-                                )
+                        $childKey = $this->sanitize($subCategoryData['attribs']['']['text']);
+                        $category->addChild(
+                            ( new Category($childKey, $childKey) )->setType(Category::ITUNES)
                         );
                     }
                 }
@@ -212,9 +207,9 @@ class Parser
         $googlePlayCategories = $this->sp->get_channel_tags(self::NS_GOOGLE_PLAY, 'category');
         if ($googlePlayCategories && count($googlePlayCategories)) {
             foreach($googlePlayCategories as $categoryData) {
-                $category = new Category();
-                $category->setType(Category::GOOGLE_PLAY)
-                    ->setName($this->sanitize($categoryData['attribs']['']['text']));
+                $name = $this->sanitize($categoryData['attribs']['']['text']);
+                $category = new Category($name,$name);
+                $category->setType(Category::GOOGLE_PLAY);
                 $podcast->addCategory($category);
             }
         }

@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "simplepie/simplepie": "^1.5"
+        "simplepie/simplepie": "^1.5",
+        "lukaswhite/itunes-categories": "^0.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
