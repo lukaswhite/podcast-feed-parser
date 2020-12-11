@@ -334,6 +334,9 @@ class Parser
         $guid = $item->get_item_tags('', 'guid');
         if ($guid && count($guid)) {
             $episode->setGuid($this->sanitize($guid[0]['data']));
+            if(count($guid[0]['attribs'][''])&&array_key_exists('isPermaLink',$guid[0]['attribs'][''])) {
+                $episode->setGuidIsPermalink($guid[0]['attribs']['']['isPermaLink']==='true');
+            }
         }
 
         $subtitle = $item->get_item_tags(self::NS_ITUNES, 'subtitle');

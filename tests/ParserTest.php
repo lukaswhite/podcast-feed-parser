@@ -163,6 +163,7 @@ class ParserTest extends \PHPUnit\Framework\TestCase
 
 
         $this->assertEquals('https://www.podcasthelpdesk.com/?p=775', $episode->getGuid());
+        $this->assertTrue($episode->guidIsPermalink());
 
         $this->assertEquals(
             'Podcast Help Desk going 2 times weekly starting December 16th – PHD151',

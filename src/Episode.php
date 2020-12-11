@@ -22,6 +22,11 @@ class Episode
     protected $guid;
 
     /**
+     * @var bool
+     */
+    protected $guidIsPermalink = false;
+
+    /**
      * @var string
      */
     protected $type;
@@ -66,6 +71,24 @@ class Episode
     public function setGuid($guid)
     {
         $this->guid = $guid;
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function guidIsPermalink()
+    {
+        return $this->guidIsPermalink;
+    }
+
+    /**
+     * @param bool $guidIsPermalink
+     * @return Episode
+     */
+    public function setGuidIsPermalink(bool $guidIsPermalink)
+    {
+        $this->guidIsPermalink = $guidIsPermalink;
         return $this;
     }
 
