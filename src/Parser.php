@@ -165,6 +165,21 @@ class Parser
             $podcast->setArtwork($artwork);
         }
 
+        $im = $this->getSingleNamespacedChannelItem('', 'image');
+        if ( $im ) {
+            $image = new Image();
+            if (isset($im['child']['']['url'])&&count($im['child']['']['url'])) {
+                $image->setUrl($this->sanitize($im['child']['']['url'][0]['data']));
+            }
+            if (isset($im['child']['']['link'])&&count($im['child']['']['link'])) {
+                $image->setLink($this->sanitize($im['child']['']['link'][0]['data']));
+            }
+            if (isset($im['child']['']['title'])&&count($im['child']['']['title'])) {
+                $image->setTitle($this->sanitize($im['child']['']['title'][0]['data']));
+            }
+            $podcast->setImage($image);
+        }
+
         if ( $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'owner')) {
             $ownerData = $this->getSingleNamespacedChannelItem(self::NS_ITUNES, 'owner');
             $owner = new Owner();

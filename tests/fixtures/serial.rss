@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://feeds.simplecast.com/xl36XBC2" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://simplecast.superfeedr.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
+    <generator>https://simplecast.com</generator>
+    <title>Serial</title>
+    <description>Serial is a podcast from the creators of This American Life, hosted by Sarah Koenig. Serial unfolds one story - a true story - over the course of a whole season. The show follows the plot and characters wherever they lead, through many surprising twists and turns. Sarah won't know what happens at the end of the story until she gets there, not long before you get there with her. Each week she'll bring you the latest chapter, so it's important to listen in, starting with Episode 1. New episodes are released on Thursday mornings. </description>
+    <copyright>Copyright 2020 Serial Podcast</copyright>
+    <language>en</language>
+    <pubDate>Thu, 20 Aug 2020 09:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 3 Dec 2020 15:59:01 +0000</lastBuildDate>
+    <image>
+      <link>https://serialpodcast.org</link>
+      <title>Serial</title>
+      <url>https://image.simplecastcdn.com/images/521189a6-a4f6-404d-85cf-455a989a10a4/abbe2292-3127-41d5-b418-f43bf7ffb7b5/3000x3000/serial-itunes-logo.png?aid=rss_feed</url>
+    </image>
+    <link>https://serialpodcast.org</link>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Serial is a podcast from the creators of This American Life, hosted by Sarah Koenig. Serial unfolds one story - a true story - over the course of a whole season. The show follows the plot and characters wherever they lead, through many surprising twists and turns. Sarah won't know what happens at the end of the story until she gets there, not long before you get there with her. Each week she'll bring you the latest chapter, so it's important to listen in, starting with Episode 1. New episodes are released on Thursday mornings. </itunes:summary>
+    <itunes:author>This American Life</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://image.simplecastcdn.com/images/521189a6-a4f6-404d-85cf-455a989a10a4/abbe2292-3127-41d5-b418-f43bf7ffb7b5/3000x3000/serial-itunes-logo.png?aid=rss_feed"/>
+    <itunes:new-feed-url>https://feeds.simplecast.com/xl36XBC2</itunes:new-feed-url>
+    <itunes:owner>
+      <itunes:name>Serial</itunes:name>
+      <itunes:email>rich@thislife.org</itunes:email>
+    </itunes:owner>
+    <itunes:category text="News"/>
+    <itunes:category text="True Crime"/>
+    <item>
+      <guid isPermaLink="false">nwp-e05</guid>
+      <title>Nice White Parents - Ep. 5</title>
+      <description>
+        <![CDATA[<p>Chana has traced the history of the school from its founding and come to the present. But now: One unexpected last chapter. Last year, the school district for BHS mandated a change in the zoning process to ensure all middle schools would be racially integrated. No longer can white families hoard resources in a few select schools. Black and Latino parents have been demanding this change since the late 1950s. The courts have mandated it. Chana asks: How did this happen? And is this a blueprint for real, systemic change?</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/NzVzMGnkLR4" height="1" width="1" alt="" />
+]]>
+      </description>
+      <pubDate>Thu, 20 Aug 2020 09:00:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://www.nytimes.com/2020/08/20/podcasts/nice-white-parents-school.html?action=click&amp;module=audio-series-bar&amp;region=header&amp;pgtype=Article</link>
+      <content:encoded>
+        <![CDATA[<p>Chana has traced the history of the school from its founding and come to the present. But now: One unexpected last chapter. Last year, the school district for BHS mandated a change in the zoning process to ensure all middle schools would be racially integrated. No longer can white families hoard resources in a few select schools. Black and Latino parents have been demanding this change since the late 1950s. The courts have mandated it. Chana asks: How did this happen? And is this a blueprint for real, systemic change?</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/NzVzMGnkLR4" height="1" width="1" alt="" />
+]]>
+      </content:encoded>
+      <enclosure length="50181895" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/4a49fb56-5d6d-4800-8b83-72047d6b81e7/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=4a49fb56-5d6d-4800-8b83-72047d6b81e7&amp;feed=xl36XBC2"/>
+      <itunes:title>Nice White Parents - Ep. 5</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:52:24</itunes:duration>
+      <itunes:summary>An unexpected last chapter. Some white parents start behaving differently.</itunes:summary>
+      <itunes:subtitle>An unexpected last chapter. Some white parents start behaving differently.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">nwp-e04</guid>
+      <title>Nice White Parents - Ep. 4</title>
+      <description>
+        <![CDATA[<p>Public schools are inequitable because the school systems are maniacally loyal to white families. We can’t have equitable public education unless schools limit the disproportionate power of white parents. But is that even possible? Chana finds two schools that are trying to do just that, and both are actually inside the 293 building. One is downstairs in the basement, where a charter school called Success Academy opened about 7 years ago. The other is upstairs at BHS, the newly renamed SIS.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/rAgzxY6ICCg" height="1" width="1" alt="" />
+]]>
+      </description>
+      <pubDate>Thu, 20 Aug 2020 08:59:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://www.nytimes.com/2020/08/13/podcasts/nice-white-parents-school.html?action=click&amp;module=audio-series-bar&amp;region=header&amp;pgtype=Article</link>
+      <content:encoded>
+        <![CDATA[<p>Public schools are inequitable because the school systems are maniacally loyal to white families. We can’t have equitable public education unless schools limit the disproportionate power of white parents. But is that even possible? Chana finds two schools that are trying to do just that, and both are actually inside the 293 building. One is downstairs in the basement, where a charter school called Success Academy opened about 7 years ago. The other is upstairs at BHS, the newly renamed SIS.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/rAgzxY6ICCg" height="1" width="1" alt="" />
+]]>
+      </content:encoded>
+      <enclosure length="46844644" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/39c3f29d-a0de-4198-9bb9-bf83fd21b4ea/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=39c3f29d-a0de-4198-9bb9-bf83fd21b4ea&amp;feed=xl36XBC2"/>
+      <itunes:title>Nice White Parents - Ep. 4</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:48:54</itunes:duration>
+      <itunes:summary>Is it possible to limit the power of white parents?</itunes:summary>
+      <itunes:subtitle>Is it possible to limit the power of white parents?</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">nwp-e03</guid>
+      <title>Nice White Parents - Ep. 3</title>
+      <description>
+        <![CDATA[<p>Chana Joffe-Walt explores how white parents can shape a school — even when they aren’t there.</p>
+<p>She traces the history of I.S. 293, now the Boerum Hill School for International Studies, from the 1980s through the modern education reforms of the 2000s. In the process, Chana talks to alumni who loved their school and never questioned why it was on the edge of a white neighborhood. To them, it was just where everyone went. But she also speaks to some who watched the school change over the years and questioned whether a local community school board was secretly plotting against 293.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/xX2quyWxQ7I" height="1" width="1" alt="" />
+]]>
+      </description>
+      <pubDate>Thu, 20 Aug 2020 08:58:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://www.nytimes.com/2020/08/06/podcasts/episode-three-this-is-our-school-how-dare-you.html?action=click&amp;module=audio-series-bar&amp;region=header&amp;pgtype=Article</link>
+      <content:encoded>
+        <![CDATA[<p>Chana Joffe-Walt explores how white parents can shape a school — even when they aren’t there.</p>
+<p>She traces the history of I.S. 293, now the Boerum Hill School for International Studies, from the 1980s through the modern education reforms of the 2000s. In the process, Chana talks to alumni who loved their school and never questioned why it was on the edge of a white neighborhood. To them, it was just where everyone went. But she also speaks to some who watched the school change over the years and questioned whether a local community school board was secretly plotting against 293.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/xX2quyWxQ7I" height="1" width="1" alt="" />
+]]>
+      </content:encoded>
+      <enclosure length="43169206" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/d31c22bb-6457-438c-9402-12bcce4144d1/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=d31c22bb-6457-438c-9402-12bcce4144d1&amp;feed=xl36XBC2"/>
+      <itunes:title>Nice White Parents - Ep. 3</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:45:04</itunes:duration>
+      <itunes:summary>We saw what happens when white families come into the school. What happens when they stay out?</itunes:summary>
+      <itunes:subtitle>We saw what happens when white families come into the school. What happens when they stay out?</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">nwp-e02</guid>
+      <title>Nice White Parents - Ep. 2</title>
+      <description>
+        <![CDATA[<p>Chana Joffe-Walt searches the New York City Board of Education archives for more information about the School for International Studies, which was originally called I.S. 293.</p>
+<p>In the process, she finds a folder of letters written in 1963 by mostly white families in Cobble Hill, Brooklyn. They are asking for the board to change the proposed construction of the school to a site where it would be more likely to be racially integrated.</p>
+<p>It’s less than a decade after Brown v. Board of Education, amid a growing civil rights movement, and the white parents writing letters are emphatic that they want an integrated school. They get their way and the school site changes — but after that, nothing else goes as planned.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/j6IOyu_7uRw" height="1" width="1" alt="" />
+]]>
+      </description>
+      <pubDate>Thu, 20 Aug 2020 08:57:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://www.nytimes.com/2020/07/30/podcasts/nice-white-parents-serial-2.html?action=click&amp;module=audio-series-bar&amp;region=header&amp;pgtype=Article</link>
+      <content:encoded>
+        <![CDATA[<p>Chana Joffe-Walt searches the New York City Board of Education archives for more information about the School for International Studies, which was originally called I.S. 293.</p>
+<p>In the process, she finds a folder of letters written in 1963 by mostly white families in Cobble Hill, Brooklyn. They are asking for the board to change the proposed construction of the school to a site where it would be more likely to be racially integrated.</p>
+<p>It’s less than a decade after Brown v. Board of Education, amid a growing civil rights movement, and the white parents writing letters are emphatic that they want an integrated school. They get their way and the school site changes — but after that, nothing else goes as planned.</p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/j6IOyu_7uRw" height="1" width="1" alt="" />
+]]>
+      </content:encoded>
+      <enclosure length="49687750" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/4790bbc7-c1df-490d-aadd-d97204c76a58/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=4790bbc7-c1df-490d-aadd-d97204c76a58&amp;feed=xl36XBC2"/>
+      <itunes:title>Nice White Parents - Ep. 2</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:51:53</itunes:duration>
+      <itunes:summary>White parents in the 1960s fought to be part of a new, racially integrated school. Where’d they go?</itunes:summary>
+      <itunes:subtitle>White parents in the 1960s fought to be part of a new, racially integrated school. Where’d they go?</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">nwp-e01</guid>
+      <title>Nice White Parents - Ep. 1</title>
+      <description>
+        <![CDATA[<p>It’s 2015 and one Brooklyn middle school is about to receive a huge influx of new students. </p>
+<p>Reporter Chana Joffe Walt follows  what happens when the School for International Studies’s 6th grade class swells from 30 mostly Latino, Black and Middle Eastern students, to a class of 103 —an influx almost entirely driven by white families.</p>
+<p>Everyone wants “what’s best for the school” but it becomes clear that they don’t share the same vision of what “best” means.</p>
+<p>For more information about this show, visit <a href="https://nytimes.com/nicewhiteparents">nytimes.com/nicewhiteparents</a></p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/VKmSkvEycbU" height="1" width="1" alt="" />
+]]>
+      </description>
+      <pubDate>Thu, 20 Aug 2020 08:56:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://www.nytimes.com/2020/07/30/podcasts/nice-white-parents-serial.html?action=click&amp;module=audio-series-bar&amp;region=header&amp;pgtype=Article</link>
+      <content:encoded>
+        <![CDATA[<p>It’s 2015 and one Brooklyn middle school is about to receive a huge influx of new students. </p>
+<p>Reporter Chana Joffe Walt follows  what happens when the School for International Studies’s 6th grade class swells from 30 mostly Latino, Black and Middle Eastern students, to a class of 103 —an influx almost entirely driven by white families.</p>
+<p>Everyone wants “what’s best for the school” but it becomes clear that they don’t share the same vision of what “best” means.</p>
+<p>For more information about this show, visit <a href="https://nytimes.com/nicewhiteparents">nytimes.com/nicewhiteparents</a></p><img src="http://feeds.feedburner.com/~r/serialpodcast/~4/VKmSkvEycbU" height="1" width="1" alt="" />
+]]>
+      </content:encoded>
+      <enclosure length="58752913" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/e3d04957-807e-4e35-b44f-bfab1509d3d7/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=e3d04957-807e-4e35-b44f-bfab1509d3d7&amp;feed=xl36XBC2"/>
+      <itunes:title>Nice White Parents - Ep. 1</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>01:01:20</itunes:duration>
+      <itunes:summary>A group of parents take one big step together.</itunes:summary>
+      <itunes:subtitle>A group of parents take one big step together.</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e09</guid>
+      <title>S03 Episode 09: Some Time When Everything Has Changed</title>
+      <description>
+        <![CDATA[<p>The state of Ohio decides where Joshua belongs.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/WH50mQO256w" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 15 Nov 2018 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/9/some-time-when-everything-has-changed</link>
+      <content:encoded>
+        <![CDATA[<p>The state of Ohio decides where Joshua belongs.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/WH50mQO256w" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="46081973" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/c0479361-09c2-4150-b0a3-8c36fa4a2046/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=c0479361-09c2-4150-b0a3-8c36fa4a2046&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 09: Some Time When Everything Has Changed</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:48:04</itunes:duration>
+      <itunes:summary>The state of Ohio decides where Joshua belongs.</itunes:summary>
+      <itunes:subtitle>The state of Ohio decides where Joshua belongs.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e08</guid>
+      <title>S03 Episode 08: A Madman’s Vacation</title>
+      <description>
+        <![CDATA[<p>A teenager decides to cooperate.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/gQKmC1JZJGI" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 8 Nov 2018 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/8/a-madmans-vacation</link>
+      <content:encoded>
+        <![CDATA[<p>A teenager decides to cooperate.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/gQKmC1JZJGI" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="60448439" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/3d54a55c-7c2c-4e8e-a5fa-5829f420d60e/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=3d54a55c-7c2c-4e8e-a5fa-5829f420d60e&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 08: A Madman’s Vacation</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>01:03:04</itunes:duration>
+      <itunes:summary>A teenager decides to cooperate.</itunes:summary>
+      <itunes:subtitle>A teenager decides to cooperate.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e07</guid>
+      <title>S03 Episode 07: The Snowball Effect</title>
+      <description>
+        <![CDATA[<p>If you listen closely to the trash-talking, you start to get the message.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ZcVf2VfMru4" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 25 Oct 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/7/the-snowball-effect</link>
+      <content:encoded>
+        <![CDATA[<p>If you listen closely to the trash-talking, you start to get the message.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ZcVf2VfMru4" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="51145169" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/c3567325-f029-4104-be7b-90152ceb310c/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=c3567325-f029-4104-be7b-90152ceb310c&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 07: The Snowball Effect</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:53:21</itunes:duration>
+      <itunes:summary>If you listen closely to the trash-talking, you start to get the message.</itunes:summary>
+      <itunes:subtitle>If you listen closely to the trash-talking, you start to get the message.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e06</guid>
+      <title>S03 Episode 06: You in the Red Shirt</title>
+      <description>
+        <![CDATA[<p>Life after you put a cop in jail.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/j49U57MRnos" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 18 Oct 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/6/you-in-the-red-shirt</link>
+      <content:encoded>
+        <![CDATA[<p>Life after you put a cop in jail.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/j49U57MRnos" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="47438457" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/429e51fb-3b29-46c8-8374-f7c04f2dac80/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=429e51fb-3b29-46c8-8374-f7c04f2dac80&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 06: You in the Red Shirt</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:49:29</itunes:duration>
+      <itunes:summary>Life after you put a cop in jail.</itunes:summary>
+      <itunes:subtitle>Life after you put a cop in jail.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e05</guid>
+      <title>S03 Episode 05: Pleas Baby Pleas</title>
+      <description>
+        <![CDATA[<p>Don’t tell the judges, but the prosecutors have the most power in the building.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Gfua2bw4h8U" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 11 Oct 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/5/pleas-baby-pleas</link>
+      <content:encoded>
+        <![CDATA[<p>Don’t tell the judges, but the prosecutors have the most power in the building.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Gfua2bw4h8U" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="56273849" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/f36dd1fe-4693-46d1-ad8d-0ce201ebc5c2/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=f36dd1fe-4693-46d1-ad8d-0ce201ebc5c2&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 05: Pleas Baby Pleas</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:58:42</itunes:duration>
+      <itunes:summary>Don’t tell the judges, but the prosecutors have the most power in the building.</itunes:summary>
+      <itunes:subtitle>Don’t tell the judges, but the prosecutors have the most power in the building.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e04</guid>
+      <title>S03 Episode 04: A Bird in Jail Is Worth Two on the Street</title>
+      <description>
+        <![CDATA[<p>What happens when the right evidence points to the wrong man?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/YyYZKUKM7Zk" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 4 Oct 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/4/a-bird-in-jail-is-worth-two-on-the-street</link>
+      <content:encoded>
+        <![CDATA[<p>What happens when the right evidence points to the wrong man?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/YyYZKUKM7Zk" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="56165454" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/21cfa4c3-613f-430b-9c5e-0e578afb192c/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=21cfa4c3-613f-430b-9c5e-0e578afb192c&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 04: A Bird in Jail Is Worth Two on the Street</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:58:35</itunes:duration>
+      <itunes:summary>What happens when the right evidence points to the wrong man?</itunes:summary>
+      <itunes:subtitle>What happens when the right evidence points to the wrong man?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e03</guid>
+      <title>S03 Episode 03: Misdemeanor, Meet Mr. Lawsuit</title>
+      <description>
+        <![CDATA[<p>The smell of raw marijuana + acting nervous + hands in pockets = ?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/cRhY_mxgaYA" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 27 Sep 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/3/misdemeanor-meet-mr-lawsuit</link>
+      <content:encoded>
+        <![CDATA[<p>The smell of raw marijuana + acting nervous + hands in pockets = ?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/cRhY_mxgaYA" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="58085310" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/e60c2ea1-baa4-4ac1-b4fc-715b57605ba6/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=e60c2ea1-baa4-4ac1-b4fc-715b57605ba6&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 03: Misdemeanor, Meet Mr. Lawsuit</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>01:00:35</itunes:duration>
+      <itunes:summary>The smell of raw marijuana + acting nervous + hands in pockets = ?</itunes:summary>
+      <itunes:subtitle>The smell of raw marijuana + acting nervous + hands in pockets = ?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e02</guid>
+      <title>S03 Episode 02: You’ve Got Some Gauls</title>
+      <description>
+        <![CDATA[<p>When a judge believes he knows you better than you know yourself.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/x0jLdwIFVuE" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 20 Sep 2018 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/2/youve-got-some-gauls</link>
+      <content:encoded>
+        <![CDATA[<p>When a judge believes he knows you better than you know yourself.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/x0jLdwIFVuE" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="52653079" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/2e3aa621-1791-4891-bd20-a421ce71fafa/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=2e3aa621-1791-4891-bd20-a421ce71fafa&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 02: You’ve Got Some Gauls</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:54:55</itunes:duration>
+      <itunes:summary>When a judge believes he knows you better than you know yourself.</itunes:summary>
+      <itunes:subtitle>When a judge believes he knows you better than you know yourself.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s03-e01</guid>
+      <title>S03 Episode 01: A Bar Fight Walks into the Justice Center</title>
+      <description>
+        <![CDATA[<p>A young woman at a bar is slapped on the butt. So why’s she the one in jail?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ACPCX9QWrYs" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 20 Sep 2018 09:15:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-three/1/a-bar-fight-walks-into-the-justice-center</link>
+      <content:encoded>
+        <![CDATA[<p>A young woman at a bar is slapped on the butt. So why’s she the one in jail?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ACPCX9QWrYs" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="48469302" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/4cafa159-57ae-49c6-88da-e492b70e2437/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=4cafa159-57ae-49c6-88da-e492b70e2437&amp;feed=xl36XBC2"/>
+      <itunes:title>S03 Episode 01: A Bar Fight Walks into the Justice Center</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:50:33</itunes:duration>
+      <itunes:summary>A young woman at a bar is slapped on the butt. So why’s she the one in jail?</itunes:summary>
+      <itunes:subtitle>A young woman at a bar is slapped on the butt. So why’s she the one in jail?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e11</guid>
+      <title>S02 Episode 11: Present for Duty</title>
+      <description>
+        <![CDATA[<p>The Season Two finale: What is Bowe’s fault, and what isn’t?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ER74kTeBpU4" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 31 Mar 2016 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/11/present-for-duty</link>
+      <content:encoded>
+        <![CDATA[<p>The Season Two finale: What is Bowe’s fault, and what isn’t?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/ER74kTeBpU4" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="61229569" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/45d4fbd9-3900-423b-949f-0fb99d38dd61/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=45d4fbd9-3900-423b-949f-0fb99d38dd61&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 11: Present for Duty</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>01:03:52</itunes:duration>
+      <itunes:summary>The Season Two finale: What is Bowe’s fault, and what isn’t?</itunes:summary>
+      <itunes:subtitle>The Season Two finale: What is Bowe’s fault, and what isn’t?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e10</guid>
+      <title>S02 Episode 10: Thorny Politics</title>
+      <description>
+        <![CDATA[<p>Are you hearing what I’m hearing?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/oHPb3mkRkX4" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 17 Mar 2016 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/10/thorny-politics</link>
+      <content:encoded>
+        <![CDATA[<p>Are you hearing what I’m hearing?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/oHPb3mkRkX4" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="48372203" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/bf52b38d-a413-4f5f-abc0-c85c525c8c0d/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=bf52b38d-a413-4f5f-abc0-c85c525c8c0d&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 10: Thorny Politics</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:50:27</itunes:duration>
+      <itunes:summary>Are you hearing what I’m hearing?</itunes:summary>
+      <itunes:subtitle>Are you hearing what I’m hearing?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e09</guid>
+      <title>S02 Episode 09: Trade Secrets</title>
+      <description>
+        <![CDATA[<p>You don’t make peace with your friends. <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/BvQ0mhztMCs" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 3 Mar 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/9/trade-secrets</link>
+      <content:encoded>
+        <![CDATA[<p>You don’t make peace with your friends. <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/BvQ0mhztMCs" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="45756357" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/cea846c1-cedb-4c16-b56f-b1d6c1a58857/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=cea846c1-cedb-4c16-b56f-b1d6c1a58857&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 09: Trade Secrets</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:47:43</itunes:duration>
+      <itunes:summary>You don’t make peace with your friends. </itunes:summary>
+      <itunes:subtitle>You don’t make peace with your friends. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e08</guid>
+      <title>S02 Episode 08: Hindsight, Part 2</title>
+      <description>
+        <![CDATA[<p>Woulda, coulda, shoulda…<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/4G-PlKo8KQw" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Fri, 19 Feb 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/8/hindsight-part-2</link>
+      <content:encoded>
+        <![CDATA[<p>Woulda, coulda, shoulda…<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/4G-PlKo8KQw" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="34051508" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/3dce21ea-87cb-471a-9288-d898703dd2d1/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=3dce21ea-87cb-471a-9288-d898703dd2d1&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 08: Hindsight, Part 2</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:35:28</itunes:duration>
+      <itunes:summary>Woulda, coulda, shoulda…</itunes:summary>
+      <itunes:subtitle>Woulda, coulda, shoulda…</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e07</guid>
+      <title>S02 Episode 07: Hindsight, Part 1</title>
+      <description>
+        <![CDATA[<p>It makes sense if you’re Bowe Bergdahl.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/xFiGWl0XK1Y" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 18 Feb 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/7/hindsight-part-1</link>
+      <content:encoded>
+        <![CDATA[<p>It makes sense if you’re Bowe Bergdahl.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/xFiGWl0XK1Y" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="35330531" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/d154a089-f5e4-4aed-b77e-8d78b354ad63/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=d154a089-f5e4-4aed-b77e-8d78b354ad63&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 07: Hindsight, Part 1</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:36:50</itunes:duration>
+      <itunes:summary>It makes sense if you’re Bowe Bergdahl.</itunes:summary>
+      <itunes:subtitle>It makes sense if you’re Bowe Bergdahl.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">160 at http://serialpodcast.org</guid>
+      <title>S01 Update: Day 03, Adnan Syed’s Hearing</title>
+      <description>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/KRxuh5iVh_A" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Sat, 6 Feb 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serial.simplecast.com/episodes/s01-update-day-03-adnan-syeds-hearing-hdEI8vhK</link>
+      <content:encoded>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/KRxuh5iVh_A" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="13658161" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/2c0ea747-bd8a-4e89-bb6a-e8badf79190b/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=2c0ea747-bd8a-4e89-bb6a-e8badf79190b&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Update: Day 03, Adnan Syed’s Hearing</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:14:12</itunes:duration>
+      <itunes:summary>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:summary>
+      <itunes:subtitle>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">159 at http://serialpodcast.org</guid>
+      <title>S01 Update: Day 02, Adnan Syed’s Hearing</title>
+      <description>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/X8PEKf-XJNI" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Fri, 5 Feb 2016 07:45:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serial.simplecast.com/episodes/s01-update-day-02-adnan-syeds-hearing-Ug3bUqLs</link>
+      <content:encoded>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/X8PEKf-XJNI" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="14062651" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/73a2c3b6-4750-42f0-b269-9a0fd14dd953/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=73a2c3b6-4750-42f0-b269-9a0fd14dd953&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Update: Day 02, Adnan Syed’s Hearing</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:14:38</itunes:duration>
+      <itunes:summary>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:summary>
+      <itunes:subtitle>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e06</guid>
+      <title>S02 Episode 06: 5 O'Clock Shadow</title>
+      <description>
+        <![CDATA[<p>Why did Bowe Bergdahl walk off? <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/5Z1fVnr1aqI" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 4 Feb 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/6/5-oclock-shadow</link>
+      <content:encoded>
+        <![CDATA[<p>Why did Bowe Bergdahl walk off? <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/5Z1fVnr1aqI" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="56370264" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/084d276f-34bd-4cbc-8604-3192b3146355/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=084d276f-34bd-4cbc-8604-3192b3146355&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 06: 5 O'Clock Shadow</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:58:48</itunes:duration>
+      <itunes:summary>Why did Bowe Bergdahl walk off? </itunes:summary>
+      <itunes:subtitle>Why did Bowe Bergdahl walk off? </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">157 at http://serialpodcast.org</guid>
+      <title>S01 Update: Day 01, Adnan Syed’s Hearing</title>
+      <description>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/fqTTG98UTek" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 4 Feb 2016 07:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serial.simplecast.com/episodes/s01-update-day-01-adnan-syeds-hearing-co_bPpAJ</link>
+      <content:encoded>
+        <![CDATA[<p>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/fqTTG98UTek" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="14531359" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/23c5753e-3ad7-46bc-94f3-d8d61e18abd3/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=23c5753e-3ad7-46bc-94f3-d8d61e18abd3&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Update: Day 01, Adnan Syed’s Hearing</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:15:07</itunes:duration>
+      <itunes:summary>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:summary>
+      <itunes:subtitle>February 2016: Sarah Koenig ducks back into the Adnan Syed case for a few days. There’s a hearing in Baltimore—a court proceeding that’s been nearly sixteen years in the making. Syed’s attorney will introduce new evidence, and present a case for why his conviction should be overturned. Sarah and producer Dana Chivvis will discuss what happens, day by day.</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e05</guid>
+      <title>S02 Episode 05: Meanwhile, in Tampa</title>
+      <description>
+        <![CDATA[<p>CIA, FBI, YouTube, the Portland PD? There was no handbook for getting Bergdahl back.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/E1EQyPhXfSE" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 21 Jan 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/5/meanwhile-in-tampa</link>
+      <content:encoded>
+        <![CDATA[<p>CIA, FBI, YouTube, the Portland PD? There was no handbook for getting Bergdahl back.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/E1EQyPhXfSE" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="50130282" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/9bbda23e-d874-4eeb-bbc5-1a7e9384eda1/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=9bbda23e-d874-4eeb-bbc5-1a7e9384eda1&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 05: Meanwhile, in Tampa</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:52:17</itunes:duration>
+      <itunes:summary>CIA, FBI, YouTube, the Portland PD? There was no handbook for getting Bergdahl back.</itunes:summary>
+      <itunes:subtitle>CIA, FBI, YouTube, the Portland PD? There was no handbook for getting Bergdahl back.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e04</guid>
+      <title>S02 Episode 04: The Captors</title>
+      <description>
+        <![CDATA[<p>What's happening on the other side of the door?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/4DAtVjr4_SM" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 7 Jan 2016 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/4/the-captors</link>
+      <content:encoded>
+        <![CDATA[<p>What's happening on the other side of the door?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/4DAtVjr4_SM" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="42158060" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/1ae194aa-9eb9-4a1b-8b67-74c49796844f/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=1ae194aa-9eb9-4a1b-8b67-74c49796844f&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 04: The Captors</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:43:58</itunes:duration>
+      <itunes:summary>What's happening on the other side of the door?</itunes:summary>
+      <itunes:subtitle>What's happening on the other side of the door?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e03</guid>
+      <title>S02 Episode 03: Escaping</title>
+      <description>
+        <![CDATA[<p>Bergdahl’s first year in captivity starts with an escape and ends with an escape. In between, he learns necessary, twisted lessons of survival.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/RneNvVu4LMw" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 24 Dec 2015 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/3/escaping</link>
+      <content:encoded>
+        <![CDATA[<p>Bergdahl’s first year in captivity starts with an escape and ends with an escape. In between, he learns necessary, twisted lessons of survival.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/RneNvVu4LMw" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="50876207" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/cf1c77f3-16e6-48c2-9b70-4fb1bc2af0d3/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=cf1c77f3-16e6-48c2-9b70-4fb1bc2af0d3&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 03: Escaping</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:53:00</itunes:duration>
+      <itunes:summary>Bergdahl’s first year in captivity starts with an escape and ends with an escape. In between, he learns necessary, twisted lessons of survival.</itunes:summary>
+      <itunes:subtitle>Bergdahl’s first year in captivity starts with an escape and ends with an escape. In between, he learns necessary, twisted lessons of survival.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e02</guid>
+      <title>S02 Episode 02: The Golden Chicken</title>
+      <description>
+        <![CDATA[<p>On the move with Bergdahl, the Taliban slip past the U.S. Army’s massive effort to find him. During those days and weeks, each side is asking, what is Bergdahl worth to us?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/3mhZ_2w7q84" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 17 Dec 2015 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/2/the-golden-chicken</link>
+      <content:encoded>
+        <![CDATA[<p>On the move with Bergdahl, the Taliban slip past the U.S. Army’s massive effort to find him. During those days and weeks, each side is asking, what is Bergdahl worth to us?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/3mhZ_2w7q84" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="55647607" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/b2b2069f-518f-4698-9b17-b24e00dfdcf7/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=b2b2069f-518f-4698-9b17-b24e00dfdcf7&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 02: The Golden Chicken</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:58:03</itunes:duration>
+      <itunes:summary>On the move with Bergdahl, the Taliban slip past the U.S. Army’s massive effort to find him. During those days and weeks, each side is asking, what is Bergdahl worth to us?</itunes:summary>
+      <itunes:subtitle>On the move with Bergdahl, the Taliban slip past the U.S. Army’s massive effort to find him. During those days and weeks, each side is asking, what is Bergdahl worth to us?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">s02-e01</guid>
+      <title>S02 Episode 01: DUSTWUN</title>
+      <description>
+        <![CDATA[<p>In the middle of the night, Pfc. Bowe Bergdahl grabs a notebook, snacks, water, some cash. Then he quietly slips off a remote U.S. Army outpost in eastern Afghanistan and into the dark, open desert. About 20 minutes later, it occurs to him: he’s in over his head. <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Z98VP9-ki8s" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 10 Dec 2015 11:00:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-two/1/dustwun</link>
+      <content:encoded>
+        <![CDATA[<p>In the middle of the night, Pfc. Bowe Bergdahl grabs a notebook, snacks, water, some cash. Then he quietly slips off a remote U.S. Army outpost in eastern Afghanistan and into the dark, open desert. About 20 minutes later, it occurs to him: he’s in over his head. <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Z98VP9-ki8s" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="41477580" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/5536f6f7-32b5-468b-8a0b-1c07a87ad551/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=5536f6f7-32b5-468b-8a0b-1c07a87ad551&amp;feed=xl36XBC2"/>
+      <itunes:title>S02 Episode 01: DUSTWUN</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:43:05</itunes:duration>
+      <itunes:summary>In the middle of the night, Pfc. Bowe Bergdahl grabs a notebook, snacks, water, some cash. Then he quietly slips off a remote U.S. Army outpost in eastern Afghanistan and into the dark, open desert. About 20 minutes later, it occurs to him: he’s in over his head. </itunes:summary>
+      <itunes:subtitle>In the middle of the night, Pfc. Bowe Bergdahl grabs a notebook, snacks, water, some cash. Then he quietly slips off a remote U.S. Army outpost in eastern Afghanistan and into the dark, open desert. About 20 minutes later, it occurs to him: he’s in over his head. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">57 at http://serialpodcast.org</guid>
+      <title>S01 Episode 12: What We Know</title>
+      <description>
+        <![CDATA[<p>On January 13, 1999, Adnan Syed was a hurt and vengeful ex-boyfriend who carried out a premeditated murder. Or he was a bewildered bystander, framed for a crime he could never have committed. After 15 months of reporting, we take out everything we’ve got - interviews and documents and police reports - we shake it all out, and we see what sticks.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/EN17Uu_zwto" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 18 Dec 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/12/what-we-know</link>
+      <content:encoded>
+        <![CDATA[<p>On January 13, 1999, Adnan Syed was a hurt and vengeful ex-boyfriend who carried out a premeditated murder. Or he was a bewildered bystander, framed for a crime he could never have committed. After 15 months of reporting, we take out everything we’ve got - interviews and documents and police reports - we shake it all out, and we see what sticks.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/EN17Uu_zwto" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="26222087" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/981d2825-6d77-4780-a82d-fda94b519546/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=981d2825-6d77-4780-a82d-fda94b519546&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 12: What We Know</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:54:25</itunes:duration>
+      <itunes:summary>On January 13, 1999, Adnan Syed was a hurt and vengeful ex-boyfriend who carried out a premeditated murder. Or he was a bewildered bystander, framed for a crime he could never have committed. After 15 months of reporting, we take out everything we’ve got - interviews and documents and police reports - we shake it all out, and we see what sticks.</itunes:summary>
+      <itunes:subtitle>On January 13, 1999, Adnan Syed was a hurt and vengeful ex-boyfriend who carried out a premeditated murder. Or he was a bewildered bystander, framed for a crime he could never have committed. After 15 months of reporting, we take out everything we’ve got - interviews and documents and police reports - we shake it all out, and we see what sticks.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">56 at http://serialpodcast.org</guid>
+      <title>S01 Episode 11: Rumors</title>
+      <description>
+        <![CDATA[<p>Almost everyone describes the 17-year-old Adnan the same way: good kid, helpful at the mosque, respectful to his elders. But a couple of months ago, Sarah started getting phone calls from people who knew Adnan back then, and told her stories of a different kind of boy.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/2jBxWKE77Oo" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 11 Dec 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/11/rumors</link>
+      <content:encoded>
+        <![CDATA[<p>Almost everyone describes the 17-year-old Adnan the same way: good kid, helpful at the mosque, respectful to his elders. But a couple of months ago, Sarah started getting phone calls from people who knew Adnan back then, and told her stories of a different kind of boy.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/2jBxWKE77Oo" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="19113971" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/e7c15837-7455-496b-a672-6cbdbbc5a636/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=e7c15837-7455-496b-a672-6cbdbbc5a636&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 11: Rumors</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:39:40</itunes:duration>
+      <itunes:summary>Almost everyone describes the 17-year-old Adnan the same way: good kid, helpful at the mosque, respectful to his elders. But a couple of months ago, Sarah started getting phone calls from people who knew Adnan back then, and told her stories of a different kind of boy.</itunes:summary>
+      <itunes:subtitle>Almost everyone describes the 17-year-old Adnan the same way: good kid, helpful at the mosque, respectful to his elders. But a couple of months ago, Sarah started getting phone calls from people who knew Adnan back then, and told her stories of a different kind of boy.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">54 at http://serialpodcast.org</guid>
+      <title>S01 Episode 10: The Best Defense is a Good Defense</title>
+      <description>
+        <![CDATA[<p>Adnan’s trial lawyer was M. Cristina Gutierrez, a renowned defense attorney in Maryland – tough and savvy and smart. Other lawyers said she was exactly the kind of person you’d want defending you on a first-degree murder charge. But Adnan was convicted, and a year later, Gutierrez was disbarred. What happened? <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/kOEzjfdp42E" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 4 Dec 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/10/the-best-defense-is-a-good-defense</link>
+      <content:encoded>
+        <![CDATA[<p>Adnan’s trial lawyer was M. Cristina Gutierrez, a renowned defense attorney in Maryland – tough and savvy and smart. Other lawyers said she was exactly the kind of person you’d want defending you on a first-degree murder charge. But Adnan was convicted, and a year later, Gutierrez was disbarred. What happened? <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/kOEzjfdp42E" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="25359439" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/14e78dcd-18fb-44d3-9d72-7b09aeb94e29/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=14e78dcd-18fb-44d3-9d72-7b09aeb94e29&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 10: The Best Defense is a Good Defense</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:52:42</itunes:duration>
+      <itunes:summary>Adnan’s trial lawyer was M. Cristina Gutierrez, a renowned defense attorney in Maryland – tough and savvy and smart. Other lawyers said she was exactly the kind of person you’d want defending you on a first-degree murder charge. But Adnan was convicted, and a year later, Gutierrez was disbarred. What happened? </itunes:summary>
+      <itunes:subtitle>Adnan’s trial lawyer was M. Cristina Gutierrez, a renowned defense attorney in Maryland – tough and savvy and smart. Other lawyers said she was exactly the kind of person you’d want defending you on a first-degree murder charge. But Adnan was convicted, and a year later, Gutierrez was disbarred. What happened? </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">49 at http://serialpodcast.org</guid>
+      <title>S01 Episode 09: To Be Suspected</title>
+      <description>
+        <![CDATA[<p>New information is coming in about what maybe didn’t happen on January 13, 1999.  And while Adnan’s memory of that day is foggy at best, he does remember what happened next: being questioned, being arrested and, a little more than a year later, being sentenced to life in prison.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/8qJNC0l-S2A" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 20 Nov 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/9/to-be-suspected</link>
+      <content:encoded>
+        <![CDATA[<p>New information is coming in about what maybe didn’t happen on January 13, 1999.  And while Adnan’s memory of that day is foggy at best, he does remember what happened next: being questioned, being arrested and, a little more than a year later, being sentenced to life in prison.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/8qJNC0l-S2A" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="21571684" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/f35c4bc5-84db-466c-b3a9-bdd02297d4b1/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=f35c4bc5-84db-466c-b3a9-bdd02297d4b1&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 09: To Be Suspected</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:44:46</itunes:duration>
+      <itunes:summary>New information is coming in about what maybe didn’t happen on January 13, 1999.  And while Adnan’s memory of that day is foggy at best, he does remember what happened next: being questioned, being arrested and, a little more than a year later, being sentenced to life in prison.</itunes:summary>
+      <itunes:subtitle>New information is coming in about what maybe didn’t happen on January 13, 1999.  And while Adnan’s memory of that day is foggy at best, he does remember what happened next: being questioned, being arrested and, a little more than a year later, being sentenced to life in prison.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">45 at http://serialpodcast.org</guid>
+      <title>S01 Episode 08: The Deal with Jay</title>
+      <description>
+        <![CDATA[<p>The state’s case against Adnan Syed hinged on Jay’s credibility; he was their star witness and also, because of his changing statements to police, their chief liability. Naturally, Adnan’s lawyer tried hard to make Jay look untrustworthy at trial. So, how did the jurors make sense of Jay? For that matter, how did the cops make sense of Jay? How are we supposed to make sense of Jay?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/0jfvfEzHHlc" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 13 Nov 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/8/the-deal-with-jay</link>
+      <content:encoded>
+        <![CDATA[<p>The state’s case against Adnan Syed hinged on Jay’s credibility; he was their star witness and also, because of his changing statements to police, their chief liability. Naturally, Adnan’s lawyer tried hard to make Jay look untrustworthy at trial. So, how did the jurors make sense of Jay? For that matter, how did the cops make sense of Jay? How are we supposed to make sense of Jay?<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/0jfvfEzHHlc" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="20573821" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/bd0c7c26-902d-432e-8c71-51442f758e8f/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=bd0c7c26-902d-432e-8c71-51442f758e8f&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 08: The Deal with Jay</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:42:44</itunes:duration>
+      <itunes:summary>The state’s case against Adnan Syed hinged on Jay’s credibility; he was their star witness and also, because of his changing statements to police, their chief liability. Naturally, Adnan’s lawyer tried hard to make Jay look untrustworthy at trial. So, how did the jurors make sense of Jay? For that matter, how did the cops make sense of Jay? How are we supposed to make sense of Jay?</itunes:summary>
+      <itunes:subtitle>The state’s case against Adnan Syed hinged on Jay’s credibility; he was their star witness and also, because of his changing statements to police, their chief liability. Naturally, Adnan’s lawyer tried hard to make Jay look untrustworthy at trial. So, how did the jurors make sense of Jay? For that matter, how did the cops make sense of Jay? How are we supposed to make sense of Jay?</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">42 at http://serialpodcast.org</guid>
+      <title>S01 Episode 07: The Opposite of the Prosecution</title>
+      <description>
+        <![CDATA[<p>Adnan told Sarah about a case in Virginia that had striking similarities to his own: one key witness, incriminating cell phone records, young people, drugs - and a defendant who has always maintained his innocence. Sarah called up one of the defense attorneys on that case to see if she could offer any insight into Adnan’s case, and got much more than she bargained for.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/C5cu4eB4EBk" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 6 Nov 2014 10:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/7/the-opposite-of-the-prosecution</link>
+      <content:encoded>
+        <![CDATA[<p>Adnan told Sarah about a case in Virginia that had striking similarities to his own: one key witness, incriminating cell phone records, young people, drugs - and a defendant who has always maintained his innocence. Sarah called up one of the defense attorneys on that case to see if she could offer any insight into Adnan’s case, and got much more than she bargained for.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/C5cu4eB4EBk" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="15393532" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/3d45760c-bdf1-4377-9e54-205806cc45d3/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=3d45760c-bdf1-4377-9e54-205806cc45d3&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 07: The Opposite of the Prosecution</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:31:57</itunes:duration>
+      <itunes:summary>Adnan told Sarah about a case in Virginia that had striking similarities to his own: one key witness, incriminating cell phone records, young people, drugs - and a defendant who has always maintained his innocence. Sarah called up one of the defense attorneys on that case to see if she could offer any insight into Adnan’s case, and got much more than she bargained for.</itunes:summary>
+      <itunes:subtitle>Adnan told Sarah about a case in Virginia that had striking similarities to his own: one key witness, incriminating cell phone records, young people, drugs - and a defendant who has always maintained his innocence. Sarah called up one of the defense attorneys on that case to see if she could offer any insight into Adnan’s case, and got much more than she bargained for.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">34 at http://serialpodcast.org</guid>
+      <title>S01 Episode 06: The Case Against Adnan Syed</title>
+      <description>
+        <![CDATA[<p>The physical evidence against Adnan Syed was scant - a few underwhelming fingerprints. So aside from cell records, what did the prosecutors bring to the jury, to shore up Jay's testimony? Sarah weighs all the other circumstantial evidence they had against Adnan, including curious behavior, a disconcerting note, and an unexplained mid-afternoon phone call.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/luzKOc-1vaU" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 30 Oct 2014 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/6/the-case-against-adnan-syed</link>
+      <content:encoded>
+        <![CDATA[<p>The physical evidence against Adnan Syed was scant - a few underwhelming fingerprints. So aside from cell records, what did the prosecutors bring to the jury, to shore up Jay's testimony? Sarah weighs all the other circumstantial evidence they had against Adnan, including curious behavior, a disconcerting note, and an unexplained mid-afternoon phone call.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/luzKOc-1vaU" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="20686287" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/f72ca45a-6e60-4503-8cef-433d6c94a156/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=f72ca45a-6e60-4503-8cef-433d6c94a156&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 06: The Case Against Adnan Syed</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:42:58</itunes:duration>
+      <itunes:summary>The physical evidence against Adnan Syed was scant - a few underwhelming fingerprints. So aside from cell records, what did the prosecutors bring to the jury, to shore up Jay's testimony? Sarah weighs all the other circumstantial evidence they had against Adnan, including curious behavior, a disconcerting note, and an unexplained mid-afternoon phone call.</itunes:summary>
+      <itunes:subtitle>The physical evidence against Adnan Syed was scant - a few underwhelming fingerprints. So aside from cell records, what did the prosecutors bring to the jury, to shore up Jay's testimony? Sarah weighs all the other circumstantial evidence they had against Adnan, including curious behavior, a disconcerting note, and an unexplained mid-afternoon phone call.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">31 at http://serialpodcast.org</guid>
+      <title>S01 Episode 05: Route Talk</title>
+      <description>
+        <![CDATA[<p>Adnan once issued a challenge to Sarah. He told her to test the state’s timeline of the murder by driving from Woodlawn High School to Best Buy in 21 minutes. It can’t be done, he said. So Sarah and Dana take up the challenge, and raise him one: They try to recreate the entire route that Jay said he and Adnan took on January 13th, 1999.<br />
+ <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/_4nNtTjgZI4" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 23 Oct 2014 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/5/route-talk</link>
+      <content:encoded>
+        <![CDATA[<p>Adnan once issued a challenge to Sarah. He told her to test the state’s timeline of the murder by driving from Woodlawn High School to Best Buy in 21 minutes. It can’t be done, he said. So Sarah and Dana take up the challenge, and raise him one: They try to recreate the entire route that Jay said he and Adnan took on January 13th, 1999.<br />
+ <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/_4nNtTjgZI4" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="20692525" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/58ea733f-dd11-46ac-8d64-c0fb67b2d19b/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=58ea733f-dd11-46ac-8d64-c0fb67b2d19b&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 05: Route Talk</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:42:51</itunes:duration>
+      <itunes:summary>Adnan once issued a challenge to Sarah. He told her to test the state’s timeline of the murder by driving from Woodlawn High School to Best Buy in 21 minutes. It can’t be done, he said. So Sarah and Dana take up the challenge, and raise him one: They try to recreate the entire route that Jay said he and Adnan took on January 13th, 1999.
+ </itunes:summary>
+      <itunes:subtitle>Adnan once issued a challenge to Sarah. He told her to test the state’s timeline of the murder by driving from Woodlawn High School to Best Buy in 21 minutes. It can’t be done, he said. So Sarah and Dana take up the challenge, and raise him one: They try to recreate the entire route that Jay said he and Adnan took on January 13th, 1999.
+ </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">28 at http://serialpodcast.org</guid>
+      <title>S01 Episode 04: Inconsistencies</title>
+      <description>
+        <![CDATA[<p>A few days after Hae’s body is found, the detectives get a lead that opens the case up for them. They find Jay at work late one night and bring him down to Homicide. At first, he insists he doesn’t know anything about the murder. But eventually he comes clean. He tells them what happened on January 13th. A few weeks later, he’s back at Homicide and his story has changed. In some ways, these changes are small and understandable. In other ways, they’re big and confounding.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Zwr-2iNgrXk" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 16 Oct 2014 09:30:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/4/inconsistencies</link>
+      <content:encoded>
+        <![CDATA[<p>A few days after Hae’s body is found, the detectives get a lead that opens the case up for them. They find Jay at work late one night and bring him down to Homicide. At first, he insists he doesn’t know anything about the murder. But eventually he comes clean. He tells them what happened on January 13th. A few weeks later, he’s back at Homicide and his story has changed. In some ways, these changes are small and understandable. In other ways, they’re big and confounding.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/Zwr-2iNgrXk" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="16043537" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/e2c44b6a-8629-4706-8e59-46392a9cd876/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=e2c44b6a-8629-4706-8e59-46392a9cd876&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 04: Inconsistencies</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:33:14</itunes:duration>
+      <itunes:summary>A few days after Hae’s body is found, the detectives get a lead that opens the case up for them. They find Jay at work late one night and bring him down to Homicide. At first, he insists he doesn’t know anything about the murder. But eventually he comes clean. He tells them what happened on January 13th. A few weeks later, he’s back at Homicide and his story has changed. In some ways, these changes are small and understandable. In other ways, they’re big and confounding.</itunes:summary>
+      <itunes:subtitle>A few days after Hae’s body is found, the detectives get a lead that opens the case up for them. They find Jay at work late one night and bring him down to Homicide. At first, he insists he doesn’t know anything about the murder. But eventually he comes clean. He tells them what happened on January 13th. A few weeks later, he’s back at Homicide and his story has changed. In some ways, these changes are small and understandable. In other ways, they’re big and confounding.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">21 at http://serialpodcast.org</guid>
+      <title>S01 Episode 03: Leakin Park</title>
+      <description>
+        <![CDATA[<p>It’s February 9, 1999. Hae has been missing for three weeks. A man on his lunch break pulls off a road to pee, and stumbles on her body in a city forest. His odd recounting of the discovery makes Detectives Ritz and MacGillivary suspicious. For instance, why did he walk so far into the woods - 127 feet - to relieve himself? And that’s just the start. A look into the man’s past reveals some bizarre behavior.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/zsYOyC2Ljyw" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Thu, 9 Oct 2014 10:00:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/3/leakin-park</link>
+      <content:encoded>
+        <![CDATA[<p>It’s February 9, 1999. Hae has been missing for three weeks. A man on his lunch break pulls off a road to pee, and stumbles on her body in a city forest. His odd recounting of the discovery makes Detectives Ritz and MacGillivary suspicious. For instance, why did he walk so far into the woods - 127 feet - to relieve himself? And that’s just the start. A look into the man’s past reveals some bizarre behavior.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/zsYOyC2Ljyw" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="13146302" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/49f53b41-cc4f-4af3-baf8-46bfc977c48b/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=49f53b41-cc4f-4af3-baf8-46bfc977c48b&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 03: Leakin Park</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:27:07</itunes:duration>
+      <itunes:summary>It’s February 9, 1999. Hae has been missing for three weeks. A man on his lunch break pulls off a road to pee, and stumbles on her body in a city forest. His odd recounting of the discovery makes Detectives Ritz and MacGillivary suspicious. For instance, why did he walk so far into the woods - 127 feet - to relieve himself? And that’s just the start. A look into the man’s past reveals some bizarre behavior.</itunes:summary>
+      <itunes:subtitle>It’s February 9, 1999. Hae has been missing for three weeks. A man on his lunch break pulls off a road to pee, and stumbles on her body in a city forest. His odd recounting of the discovery makes Detectives Ritz and MacGillivary suspicious. For instance, why did he walk so far into the woods - 127 feet - to relieve himself? And that’s just the start. A look into the man’s past reveals some bizarre behavior.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">17 at http://serialpodcast.org</guid>
+      <title>S01 Episode 02: The Breakup</title>
+      <description>
+        <![CDATA[<p>Their relationship began like a storybook high-school romance: a prom date, love notes, sneaking off to be alone. But unlike other kids at school, they had to keep their dating secret, because their parents disapproved. Both of them, but especially Adnan, were under special pressure at home, and the stress of that spilled over into their relationship. Eventually Hae broke up with Adnan. And then, depending on who you ask, Adnan was either understandably sad and moping around, or full of rage and plotting to kill her.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/8S8WkuVAFY8" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Fri, 3 Oct 2014 14:00:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/2/the-breakup</link>
+      <content:encoded>
+        <![CDATA[<p>Their relationship began like a storybook high-school romance: a prom date, love notes, sneaking off to be alone. But unlike other kids at school, they had to keep their dating secret, because their parents disapproved. Both of them, but especially Adnan, were under special pressure at home, and the stress of that spilled over into their relationship. Eventually Hae broke up with Adnan. And then, depending on who you ask, Adnan was either understandably sad and moping around, or full of rage and plotting to kill her.<img src="http://feeds.feedburner.com/~r/serialpodcast/~4/8S8WkuVAFY8" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="17264698" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/7dfba246-b85f-4d38-baec-a4431d7b8876/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=7dfba246-b85f-4d38-baec-a4431d7b8876&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 02: The Breakup</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:35:49</itunes:duration>
+      <itunes:summary>Their relationship began like a storybook high-school romance: a prom date, love notes, sneaking off to be alone. But unlike other kids at school, they had to keep their dating secret, because their parents disapproved. Both of them, but especially Adnan, were under special pressure at home, and the stress of that spilled over into their relationship. Eventually Hae broke up with Adnan. And then, depending on who you ask, Adnan was either understandably sad and moping around, or full of rage and plotting to kill her.</itunes:summary>
+      <itunes:subtitle>Their relationship began like a storybook high-school romance: a prom date, love notes, sneaking off to be alone. But unlike other kids at school, they had to keep their dating secret, because their parents disapproved. Both of them, but especially Adnan, were under special pressure at home, and the stress of that spilled over into their relationship. Eventually Hae broke up with Adnan. And then, depending on who you ask, Adnan was either understandably sad and moping around, or full of rage and plotting to kill her.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">2 at http://serialpodcast.org</guid>
+      <title>S01 Episode 01: The Alibi</title>
+      <description>
+        <![CDATA[<p>It's Baltimore, 1999. Hae Min Lee, a popular high-school senior, disappears after school one day. Six weeks later detectives arrest her classmate and ex-boyfriend, Adnan Syed, for her murder. He says he's innocent - though he can't exactly remember what he was doing on that January afternoon. But someone can. A classmate at Woodlawn High School says she knows where Adnan was. The trouble is, she’s nowhere to be found.<br />
+ <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/5ycPwkd6LAY" height="1" width="1" alt="" /></p>
+]]>
+      </description>
+      <pubDate>Fri, 3 Oct 2014 13:45:00 +0000</pubDate>
+      <author>rich@thislife.org (This American Life)</author>
+      <link>https://serialpodcast.org/season-one/1/the-alibi</link>
+      <content:encoded>
+        <![CDATA[<p>It's Baltimore, 1999. Hae Min Lee, a popular high-school senior, disappears after school one day. Six weeks later detectives arrest her classmate and ex-boyfriend, Adnan Syed, for her murder. He says he's innocent - though he can't exactly remember what he was doing on that January afternoon. But someone can. A classmate at Woodlawn High School says she knows where Adnan was. The trouble is, she’s nowhere to be found.<br />
+ <img src="http://feeds.feedburner.com/~r/serialpodcast/~4/5ycPwkd6LAY" height="1" width="1" alt="" /></p>
+]]>
+      </content:encoded>
+      <enclosure length="25488345" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/d11df4d6-5fe9-40fb-a0e0-48bcd4651225/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&amp;awEpisodeId=d11df4d6-5fe9-40fb-a0e0-48bcd4651225&amp;feed=xl36XBC2"/>
+      <itunes:title>S01 Episode 01: The Alibi</itunes:title>
+      <itunes:author>This American Life</itunes:author>
+      <itunes:duration>00:52:57</itunes:duration>
+      <itunes:summary>It's Baltimore, 1999. Hae Min Lee, a popular high-school senior, disappears after school one day. Six weeks later detectives arrest her classmate and ex-boyfriend, Adnan Syed, for her murder. He says he's innocent - though he can't exactly remember what he was doing on that January afternoon. But someone can. A classmate at Woodlawn High School says she knows where Adnan was. The trouble is, she’s nowhere to be found.
+ </itunes:summary>
+      <itunes:subtitle>It's Baltimore, 1999. Hae Min Lee, a popular high-school senior, disappears after school one day. Six weeks later detectives arrest her classmate and ex-boyfriend, Adnan Syed, for her murder. He says he's innocent - though he can't exactly remember what he was doing on that January afternoon. But someone can. A classmate at Woodlawn High School says she knows where Adnan was. The trouble is, she’s nowhere to be found.
+ </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>

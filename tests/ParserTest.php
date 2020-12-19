@@ -360,6 +360,23 @@ The Good News and part of the "big" announcement I teased is this show is going 
         $this->assertEquals('2020-11-30 21:57',$podcast->getEpisodes()->first()->getPublishedDate()->format('Y-m-d H:i'));
     }
 
+    public function test_can_extract_image()
+    {
+        $parser = new \Lukaswhite\PodcastFeedParser\Parser();
+        $parser->load('./tests/fixtures/serial.rss');
+        $podcast = $parser->run();
+
+        $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Image::class, $podcast->getImage());
+
+        $this->assertEquals('https://serialpodcast.org',$podcast->getImage()->getLink());
+        $this->assertEquals('Serial',$podcast->getImage()->getTitle());
+        $this->assertEquals(
+            'https://image.simplecastcdn.com/images/521189a6-a4f6-404d-85cf-455a989a10a4/abbe2292-3127-41d5-b418-f43bf7ffb7b5/3000x3000/serial-itunes-logo.png?aid=rss_feed',
+            $podcast->getImage()->getUrl()
+        );
+
+    }
+
     public function test_can_load_from_file()
     {
         $parser = new \Lukaswhite\PodcastFeedParser\Parser();

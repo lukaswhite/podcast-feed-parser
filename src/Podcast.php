@@ -8,6 +8,7 @@ use Lukaswhite\PodcastFeedParser\Traits\HasAuthor;
 use Lukaswhite\PodcastFeedParser\Traits\HasCategories;
 use Lukaswhite\PodcastFeedParser\Traits\HasDescription;
 use Lukaswhite\PodcastFeedParser\Traits\HasExplicit;
+use Lukaswhite\PodcastFeedParser\Traits\HasImage;
 use Lukaswhite\PodcastFeedParser\Traits\HasItunesTags;
 use Lukaswhite\PodcastFeedParser\Traits\HasLink;
 use Lukaswhite\PodcastFeedParser\Traits\HasRawvoiceTags;
@@ -25,6 +26,7 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
         ,   HasSyndicationTags
         ,   HasRawvoiceTags
         ,   HasArtwork
+        ,   HasImage
         ,   HasLink
         ,   HasAuthor
         ,   HasExplicit
