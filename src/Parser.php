@@ -349,6 +349,11 @@ class Parser
             $episode->setExplicit($this->sanitize($explicit[0]['data']));
         }
 
+        $author = $item->get_item_tags(self::NS_ITUNES, 'author');
+        if ( $author && count($author)) {
+            $episode->setAuthor($this->sanitize($author[0]['data']));
+        }
+
         $episodeNumber = $item->get_item_tags(self::NS_ITUNES, 'episode');
         if ( $episodeNumber && count($episodeNumber)) {
             $episode->setEpisodeNumber(intval($episodeNumber[0]['data']));

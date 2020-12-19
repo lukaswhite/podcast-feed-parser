@@ -4,6 +4,7 @@ namespace Lukaswhite\PodcastFeedParser;
 
 use Lukaswhite\PodcastFeedParser\Traits\HasArtwork;
 use Lukaswhite\PodcastFeedParser\Traits\HasAtomTags;
+use Lukaswhite\PodcastFeedParser\Traits\HasAuthor;
 use Lukaswhite\PodcastFeedParser\Traits\HasCategories;
 use Lukaswhite\PodcastFeedParser\Traits\HasDescription;
 use Lukaswhite\PodcastFeedParser\Traits\HasExplicit;
@@ -25,6 +26,7 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
         ,   HasRawvoiceTags
         ,   HasArtwork
         ,   HasLink
+        ,   HasAuthor
         ,   HasExplicit
         ,   HasCategories;
 
@@ -40,11 +42,6 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
      * @var string
      */
     protected $language;
-
-    /**
-     * @var string
-     */
-    protected $author;
 
     /**
      * @var string
@@ -97,24 +94,6 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
     public function setLanguage($language)
     {
         $this->language = $language;
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getAuthor()
-    {
-        return $this->author;
-    }
-
-    /**
-     * @param string $author
-     * @return Podcast
-     */
-    public function setAuthor($author)
-    {
-        $this->author = $author;
         return $this;
     }
 

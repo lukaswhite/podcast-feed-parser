@@ -3,6 +3,7 @@
 namespace Lukaswhite\PodcastFeedParser;
 
 use Lukaswhite\PodcastFeedParser\Traits\HasArtwork;
+use Lukaswhite\PodcastFeedParser\Traits\HasAuthor;
 use Lukaswhite\PodcastFeedParser\Traits\HasDescription;
 use Lukaswhite\PodcastFeedParser\Traits\HasExplicit;
 use Lukaswhite\PodcastFeedParser\Traits\HasLink;
@@ -14,6 +15,7 @@ class Episode
         ,   HasDescription
         ,   HasArtwork
         ,   HasLink
+        ,   HasAuthor
         ,   HasExplicit;
 
     /**

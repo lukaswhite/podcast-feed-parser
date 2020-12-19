@@ -185,6 +185,8 @@ The Good News and part of the "big" announcement I teased is this show is going 
 
         $this->assertEquals('7:10',$episode->getDuration());
 
+        $this->assertEquals('Mike Dell', $episode->getAuthor());
+
         $this->assertInstanceOf(\Lukaswhite\PodcastFeedParser\Media::class,$episode->getMedia());
         $this->assertEquals(
             'https://media.blubrry.com/phd/ins.blubrry.com/phd/phd151.mp3',
