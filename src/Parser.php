@@ -338,7 +338,9 @@ class Parser
             ->setLink($item->get_link());
 
         if ($this->config->shouldDefaultToToday()) {
-            $episode->setPublishedDate(new \DateTime($item->get_date()));
+            $episode->setPublishedDate(
+                $item->get_date() ? new \DateTime($item->get_date()) : new \DateTime()
+            );
         } else {
             $pubDate = $item->get_item_tags('', 'pubDate');
             if ($pubDate && count($pubDate)) {
