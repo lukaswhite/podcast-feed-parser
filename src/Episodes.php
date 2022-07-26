@@ -39,7 +39,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
     /**
      * @return int
      */
-    public function count()
+    public function count(): int
     {
         return count($this->items);
     }
@@ -47,7 +47,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
     /**
      * @return \ArrayIterator|\Traversable
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return new \ArrayIterator($this->items);
     }
@@ -186,7 +186,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
      * The return value will be casted to boolean if non-boolean was returned.
      * @since 5.0
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
         return isset($this->items[$offset]);
     }
@@ -200,7 +200,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
      * @return mixed Can return all value types.
      * @since 5.0
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         return $this->items[$offset];
     }
@@ -217,7 +217,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
      * @return void
      * @since 5.0
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
         // noop
     }
@@ -231,7 +231,7 @@ class Episodes implements \Countable, \IteratorAggregate, \ArrayAccess
      * @return void
      * @since 5.0
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         // noop
     }
