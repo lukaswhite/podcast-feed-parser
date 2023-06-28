@@ -13,7 +13,7 @@ A PHP library for parsing Podcast XML/RSS feeds.
 ## Installation
 
 ```bash
-composer require lukaswhite/php-feed-parser
+composer require lukaswhite/podcast-feed-parser
 ```
 
 ## Usage
