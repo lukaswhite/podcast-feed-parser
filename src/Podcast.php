@@ -56,6 +56,11 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
     protected $copyright;
 
     /**
+     * @var string
+     */
+    protected $keywords;
+
+    /**
      * Podcast constructor.
      */
     public function __construct()
@@ -132,6 +137,25 @@ class Podcast implements \Lukaswhite\PodcastFeedParser\Contracts\HasArtwork
     public function setCopyright($copyright)
     {
         $this->copyright = $copyright;
+        return $this;
+    }
+
+
+    /**
+     * @return string
+     */
+    public function getKeywords()
+    {
+        return $this->keywords;
+    }
+
+    /**
+     * @param string $keywords
+     * @return Podcast
+     */
+    public function setKeywords($keywords)
+    {
+        $this->keywords = $keywords;
         return $this;
     }
 
