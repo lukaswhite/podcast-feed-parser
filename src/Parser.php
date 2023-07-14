@@ -125,6 +125,12 @@ class Parser
             $podcast->setType($this->sanitize($iTunesType[0]['data']));
         }
 
+        $iTunesKeywords = $this->sp->get_channel_tags(self::NS_ITUNES, 'keywords');
+        if ($iTunesKeywords && count($iTunesKeywords))
+        {
+            $podcast->setKeywords($this->sanitize($iTunesKeywords[0]['data']));
+        }
+
         $editor = $this->sp->get_channel_tags('', 'managingEditor');
         if ($editor && count($editor)) {
             $podcast->setManagingEditor($this->sanitize($editor[0]['data']));
